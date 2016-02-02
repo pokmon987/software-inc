@@ -1,0 +1,18 @@
+-start(letters, bespoke)
+-letters(end, suffix)
+D
+G
+Lava
+-bespoke(end, suffix)
+Fifth
+Camel
+BigChat
+Power
+Closure
+Tea
+-suffix(end)
+++
+#
+basic
+script
+-end(stop)

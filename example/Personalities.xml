@@ -1,0 +1,15 @@
+<PersonalityGraph>
+	<Personalities>
+		<Personality>
+			<Name>TestPersonlity</Name>
+			<Aptitude>1</Aptitude>
+			<Leadership>-1</Leadership>
+			<Diligence>1</Diligence>
+			<Relationships>
+				<Relation Name = "Extrovert">-0.5</Relation>
+			</Relationships>
+		</Personality>
+	</Personalities>
+	<Incompatibilities>
+	</Incompatibilities>
+</PersonalityGraph>

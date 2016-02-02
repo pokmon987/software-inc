@@ -1,0 +1,76 @@
+<SoftwareType>
+	<Name>Mainframe Software</Name>
+	<Category>Mainframe Software</Category>
+	<Description>Business critical software to run on Mainframes.</Description>
+	<Random>0.5</Random>
+	<Popularity>0.5</Popularity>
+    <Retention>0.9</Retention>
+    <Iterative>0.4</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>True</InHouse>
+	<NameGenerator>ServerSoftware</NameGenerator>
+	<Needs>
+        <Name>Programming Language</Name>
+        <Name>Database</Name>
+    </Needs>
+    <Features>
+        <Feature Forced="TRUE">
+            <Name>Business Solution</Name>
+            <Category>General</Category>
+            <Description>Generic solution to important business requirements.</Description>
+            <DevTime>8</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>4</Stability>
+            <Unlock>1970</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">Terminal</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>Persisted Storage</Name>
+            <Category>General</Category>
+            <Description>Storing data on local disks and tapes.</Description>
+            <DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>4</Stability>
+            <Unlock>1980</Unlock>
+            <CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Database">ACID</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Basic Interaction</Name>
+            <Category>Graphics</Category>
+            <Description>Allow system administrators to interact, maintain, and modify the software.</Description>
+            <DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>4</Usability>
+			<Stability>0</Stability>
+            <Unlock>1985</Unlock>
+            <CodeArt>0.5</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">User Interaction</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Fallback</Name>
+            <Category>Networking</Category>
+            <Description>Shared resources and networking allows fallback systems to improve availability.</Description>
+            <DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>4</Stability>
+            <Unlock>1985</Unlock>
+            <CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">Local Networking</Dependency>
+                <Dependency Software="Database">Transactions</Dependency>
+            </Dependencies>
+        </Feature>
+    </Features>
+</SoftwareType>

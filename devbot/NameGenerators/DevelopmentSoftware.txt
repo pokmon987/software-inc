@@ -1,0 +1,28 @@
+-start(languages, bespoke)
+-languages(editor, suffix)
+D
+G
+Lava
+Fifth
+Camel
+BigChat
+Power
+Closure
+Tea
+-suffix(editor)
+++
+#
+basic
+script
+-bespoke(editor)
+Duo
+Audio
+Visual
+-editor(end)
+Professional
+Builder
+Editor
+Studio
+Develop
+Express
+-end(stop)

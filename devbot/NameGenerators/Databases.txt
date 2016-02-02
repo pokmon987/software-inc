@@ -1,0 +1,13 @@
+-start(prefix, bespoke)
+-prefix(end, bespoke)
+SQL
+Embedded
+-bespoke(end, suffix)
+Inform
+Store
+Your
+Strong
+-suffix(end)
+DB
+Base
+-end(stop)

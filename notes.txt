@@ -1,0 +1,44 @@
+OS Categories:
+    1970 - Server
+    1980 - Client
+    1990 - Console
+    2000 - Phone
+
+OS Features:
+    1970 - Terminal
+    1970 - User Input
+    1970 - PC Speaker
+    1980 - 2D Graphics
+    1985 - Networking
+    1985 - 8-bit Audio
+    1990 - Plug'n'Play
+    1990 - 3D Rendering
+    1990 - HD Audio
+    1995 - Multitasking
+    2000 - Hardware Acceleration
+    2000 - Multithreading
+    2000 - Surround Sound
+    2010 - VR Rendering
+    2010 - Hyperthreading
+    2010 - Virtualisation
+    2020 - Holo Rendering
+    
+Software Categories:
+    1970 - General
+    1980 - Graphics
+    1985 - Networking
+    1990 - System
+    1995 - Asynchrony
+    
+Software Types:
+    1970 - Assembly Language
+    1970 - Development Software
+    1970 - Operating System
+    1970 - Back Office System
+    1970 - Mainframe Software
+    1980 - Database
+    1990 - Office Software
+    1990 - Programming Language
+    1990 - Hosting (Web)
+    2000 - Hosting (Website)
+    2010 - Hosting (Cloud Computing)

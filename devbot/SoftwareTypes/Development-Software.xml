@@ -1,0 +1,132 @@
+<SoftwareType>
+	<Name>Development Software</Name>
+	<Category>Development Software</Category>
+	<Description>This software helps developing complex systems.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.5</Popularity>
+    <Retention>0.9</Retention>
+    <Iterative>0.4</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>True</InHouse>
+	<NameGenerator>DevelopmentSoftware</NameGenerator>
+	<Needs>
+        <Name>Programming Language</Name>
+    </Needs>
+    <Features>
+        <Feature Forced="TRUE">
+            <Name>Basic Compiler</Name>
+            <Category>System</Category>
+            <Description>Required to translate assembly language into an assembly or executable your computer can run.</Description>
+            <Unlock>1970</Unlock>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">Terminal</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature From="Basic Compiler">
+            <Name>Advanced Compiler</Name>
+            <Category>System</Category>
+            <Description>Advanced compiler able to translate higher level programming languages into executable binary.</Description>
+            <Unlock>1990</Unlock>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">Forms UI</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Editor</Name>
+            <Category>General</Category>
+            <Description>The ability to type your code, be it assembly or a high level language.</Description>
+            <Unlock>1970</Unlock>
+            <DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependencies></Dependencies>
+        </Feature>
+        <Feature From="Editor" Vital="TRUE">
+            <Name>Integrated Development Environment</Name>
+            <Category>General</Category>
+            <Description>Advanced and extensible editing capability.</Description>
+            <Unlock>1990</Unlock>
+            <DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+            <CodeArt>0.7</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">Forms UI</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Auto-complete</Name>
+            <Category>General</Category>
+            <Description>The editor intelligently supplies auto-completion as you type.</Description>
+            <Unlock>1990</Unlock>
+            <DevTime>4</DevTime>
+            <Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.8</CodeArt>
+            <Dependencies>
+                <Dependency Software="Development Software">Editor</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Plugin Support</Name>
+            <Category>General</Category>
+            <Description>Allow 3rd party integration with the IDE.</Description>
+            <Unlock>2000</Unlock>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Server>0.2</Server>
+            <Dependencies>
+                <Dependency Software="Development Software">Integrated Development Environment</Dependency>
+                <Dependency Software="Programming Language">Internet</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Automated Testing</Name>
+            <Category>General</Category>
+            <Description>The IDE automatically runs your tests, allowing test driven development.</Description>
+            <Unlock>2005</Unlock>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Development Software">Plugin Support</Dependency>
+                <Dependency Software="Programming Language">Multithreading</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Package Repository</Name>
+            <Category>General</Category>
+            <Description>Allow download of useful packages created by 3rd parties.</Description>
+            <Unlock>2010</Unlock>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Server>0.5</Server>
+            <Dependencies>
+                <Dependency Software="Development Software">Plugin Support</Dependency>
+            </Dependencies>
+        </Feature>
+    </Features>
+</SoftwareType>
