@@ -1,0 +1,9 @@
+<CompanyType>
+    <Specialization>Business Software</Specialization>
+    <PerYear>0.2</PerYear>
+    <Min>2</Min>
+    <Max>6</Max>
+    <Types>
+        <Type Software="Business Software">1</Type>
+    </Types>
+</CompanyType>
