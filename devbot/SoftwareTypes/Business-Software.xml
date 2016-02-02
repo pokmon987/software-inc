@@ -65,7 +65,7 @@
 			<Usability>1</Usability>
 			<Stability>3</Stability>
             <Unlock>1985</Unlock>
-			<CodeArt></CodeArt>
+			<CodeArt>1</CodeArt>
             <Dependencies>
                 <Dependency Software="Programming Language">Local Network</Dependency>
             </Dependencies>
