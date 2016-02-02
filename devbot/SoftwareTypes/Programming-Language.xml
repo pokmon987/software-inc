@@ -18,9 +18,9 @@
             <DevTime>1</DevTime>
             <Innovation>1</Innovation>
             <Usability>1</Usability>
-            <Stability>3</Stability>
+            <Stability>1</Stability>
             <Category>General</Category>
-            <Unlock>1990</Unlock>
+            <Unlock>1970</Unlock>
             <CodeArt>1</CodeArt>
             <Dependencies></Dependencies>
         </Feature>
@@ -28,11 +28,11 @@
             <Name>Forms UI</Name>
             <Description>The ability for the language to create Forms on the screen.</Description>
             <DevTime>2</DevTime>
-            <Innovation>3</Innovation>
-            <Usability>3</Usability>
-            <Stability>2</Stability>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
             <Category>General</Category>
-            <Unlock>1990</Unlock>
+            <Unlock>1980</Unlock>
             <CodeArt>0.8</CodeArt>
             <Dependencies>
                 <Dependency Software="Operating System">GUI</Dependency>
@@ -44,21 +44,21 @@
             <DevTime>3</DevTime>
             <Innovation>3</Innovation>
             <Usability>3</Usability>
-            <Stability>2</Stability>
+            <Stability>1</Stability>
             <Category>Graphics</Category>
-            <Unlock>1995</Unlock>
+            <Unlock>1990</Unlock>
             <CodeArt>0.7</CodeArt>
             <Dependencies>
                 <Dependency Software="Operating System">3D rendering</Dependency>
             </Dependencies>
         </Feature>
-        <Feature>
+        <Feature From="Modern UI" Vital="TRUE">
             <Name>Responsive UI</Name>
             <Description>Allows responsive UI designs that look great on all devices.</Description>
             <DevTime>4</DevTime>
-            <Innovation>3</Innovation>
-            <Usability>3</Usability>
-            <Stability>2</Stability>
+            <Innovation>4</Innovation>
+            <Usability>4</Usability>
+            <Stability>1</Stability>
             <Category>Graphics</Category>
             <Unlock>2005</Unlock>
             <CodeArt>0.5</CodeArt>
@@ -75,11 +75,11 @@
             <Usability>3</Usability>
             <Stability>2</Stability>
             <Category>Graphics</Category>
-            <Unlock>2010</Unlock>
+            <Unlock>2015</Unlock>
             <CodeArt>0.5</CodeArt>
             <Dependencies>
                 <Dependency Software="Programming Language">Responsive UI</Dependency>
-                <Dependency Software="Operating System">VR Rendering</Dependency>
+                <Dependency Software="Operating System">Holo Rendering</Dependency>
             </Dependencies>
         </Feature>
         <Feature From="VR Integration" Vital="TRUE">
@@ -104,7 +104,7 @@
             <Usability>2</Usability>
             <Stability>1</Stability>
             <Category>General</Category>
-            <Unlock>1990</Unlock>
+            <Unlock>1995</Unlock>
             <CodeArt>1</CodeArt>
             <Dependencies>
                 <Dependency Software="Operating System">Plug'n'Play</Dependency>
@@ -118,7 +118,7 @@
             <Usability>1</Usability>
             <Stability>1</Stability>
             <Category>Networking</Category>
-            <Unlock>1990</Unlock>
+            <Unlock>1985</Unlock>
             <CodeArt>1</CodeArt>
             <Dependencies>
                 <Dependency Software="Operating System">Networking</Dependency>
@@ -132,7 +132,7 @@
             <Usability>1</Usability>
             <Stability>1</Stability>
             <Category>Networking</Category>
-            <Unlock>1995</Unlock>
+            <Unlock>2000</Unlock>
             <CodeArt>1</CodeArt>
             <Dependencies>
                 <Dependency Software="Operating System">Networking</Dependency>
@@ -146,7 +146,7 @@
             <Usability>2</Usability>
             <Stability>1</Stability>
             <Category>Asynchrony</Category>
-            <Unlock>1990</Unlock>
+            <Unlock>1980</Unlock>
             <CodeArt>1</CodeArt>
             <Dependencies>
                 <Dependency Software="Operating System">Multitasking</Dependency>
@@ -155,7 +155,7 @@
         <Feature From="Multitasking">
             <Name>Multithreading</Name>
             <Description>The ability for applications to utilise multiple processor cores.</Description>
-            <DevTime>1</DevTime>
+            <DevTime>2</DevTime>
             <Innovation>3</Innovation>
             <Usability>2</Usability>
             <Stability>1</Stability>
@@ -174,7 +174,7 @@
             <Usability>2</Usability>
             <Stability>1</Stability>
             <Category>Audio</Category>
-            <Unlock>1990</Unlock>
+            <Unlock>1985</Unlock>
             <CodeArt>1</CodeArt>
             <Dependencies>
                 <Dependency Software="Operating System">8-bit audio</Dependency>
