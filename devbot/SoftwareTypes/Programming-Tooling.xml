@@ -1,7 +1,7 @@
 <SoftwareType>
-	<Name>Programming Tool</Name>
-	<Category>Programming Tool</Category>
-	<Description>This software helps developing complex systems.</Description>
+	<Name>Programming Tooling</Name>
+	<Category>Programming Tooling</Category>
+	<Description>This software helps develop complex systems.</Description>
 	<Random>0.1</Random>
 	<Popularity>0.5</Popularity>
     <Retention>0.9</Retention>
@@ -79,7 +79,7 @@
 			<Stability>1</Stability>
 			<CodeArt>0.8</CodeArt>
             <Dependencies>
-                <Dependency Software="Programming Tool">Editor</Dependency>
+                <Dependency Software="Programming Tooling">Editor</Dependency>
             </Dependencies>
         </Feature>
         <Feature>
@@ -94,7 +94,7 @@
 			<CodeArt>1</CodeArt>
             <Server>0.2</Server>
             <Dependencies>
-                <Dependency Software="Programming Tool">Integrated Development Environment</Dependency>
+                <Dependency Software="Programming Tooling">Integrated Development Environment</Dependency>
                 <Dependency Software="Programming Language">Internet</Dependency>
             </Dependencies>
         </Feature>
@@ -109,7 +109,7 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Programming Tool">Plugin Support</Dependency>
+                <Dependency Software="Programming Tooling">Plugin Support</Dependency>
                 <Dependency Software="Programming Language">Multithreading</Dependency>
             </Dependencies>
         </Feature>
@@ -125,7 +125,7 @@
 			<CodeArt>1</CodeArt>
             <Server>0.5</Server>
             <Dependencies>
-                <Dependency Software="Programming Tool">Plugin Support</Dependency>
+                <Dependency Software="Programming Tooling">Plugin Support</Dependency>
             </Dependencies>
         </Feature>
         <Feature>
@@ -140,7 +140,7 @@
 			<CodeArt>1</CodeArt>
             <Server>0.5</Server>
             <Dependencies>
-                <Dependency Software="Programming Tool">Plugin Support</Dependency>
+                <Dependency Software="Programming Tooling">Plugin Support</Dependency>
             </Dependencies>        
         </Feature>
     </Features>
