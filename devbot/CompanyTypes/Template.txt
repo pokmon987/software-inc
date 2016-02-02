@@ -1,0 +1,10 @@
+<CompanyType>
+    <Specialization>Name</Specialization>
+    <Force>Software Type,Category</Force>
+    <PerYear>0.2</PerYear>
+    <Min></Min>
+    <Max></Max>
+    <Types>
+        <Type Software="Software Type">1</Type>
+    </Types>
+</CompanyType>

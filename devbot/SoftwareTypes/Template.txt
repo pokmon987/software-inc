@@ -1,0 +1,43 @@
+<SoftwareType>
+	<Name></Name>
+	<Category></Category>
+	<Description></Description>
+	<Random></Random>
+	<Popularity></Popularity>    
+    <Retention></Retention>
+    <Iterative></Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>True</InHouse>
+	<NameGenerator></NameGenerator>
+    <Needs>
+        <Name></Name>
+    </Needs>
+    <Categories>
+        <Category Name="Basic">
+            <Description></Description>
+            <Unlock></Unlock>
+            <Popularity></Popularity>
+            <TimeScale></TimeScale>
+            <Retention></Retention>
+            <Iterative></Iterative>
+            <NameGenerator></NameGenerator>
+        </Category>
+    </Categories>
+    <Features>
+        <Feature Forced="TRUE">
+            <Name></Name>
+            <Category></Category>
+            <Description></Description>
+            <DevTime></DevTime>
+			<Innovation></Innovation>
+			<Usability></Usability>
+			<Stability></Stability>
+            <Unlock></Unlock>
+			<CodeArt></CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">Terminal</Dependency>
+            </Dependencies>
+        </Feature>
+    </Features>
+</SoftwareType>    
