@@ -1,94 +1,19 @@
 <SoftwareType Override="True">
 	<Name>Operating System</Name>
-	<Category>Computing</Category>
-	<Description>The Operating System is the largest piece of software in Software Inc.
-Most software needs an Operating System to run on. When people stop buying a line of Operating Systems, they will also stop buying software for them.</Description>
-	<Random>0</Random>
-	<Popularity>1</Popularity>
-    <Retention>0.9</Retention>
-    <Iterative>0.4</Iterative>
-	<OSSpecific>False</OSSpecific>
-	<OneClient>False</OneClient>
-	<InHouse>False</InHouse>
-	<NameGenerator>OperatingSystems</NameGenerator>
-    <Categories>
-        <Category Name="Server">
-            <Description>Server side software designed for high availability.</Description>
-            <Unlock>1970</Unlock>
-            <Popularity>0.4</Popularity>
-            <TimeScale>1</TimeScale>
-            <Retention>0.9</Retention>
-            <Iterative>0.8</Iterative>
-            <NameGenerator>OperatingSystems</NameGenerator>
-        </Category>
-        <Category Name="Client">
-            <Description>Client side desktop software designed for high usability.</Description>
-            <Unlock>1980</Unlock>
-            <Popularity>0.4</Popularity>
-            <TimeScale>1</TimeScale>
-            <Retention>0.7</Retention>
-            <Iterative>0.8</Iterative>
-            <NameGenerator>OperatingSystems</NameGenerator>
-        </Category>
-        <Category Name="Console">
-            <Description>Client side software for gaming consoles.</Description>
-            <Unlock>1990</Unlock>
-            <Popularity>0.6</Popularity>
-            <TimeScale>0.8</TimeScale>
-            <Retention>0.5</Retention>
-            <Iterative>0.8</Iterative>
-            <NameGenerator>OperatingSystems</NameGenerator>
-        </Category>
-        <Category Name="Phone">
-            <Description>Client side software for mobile phones.</Description>
-            <Unlock>2000</Unlock>
-            <Popularity>0.9</Popularity>
-            <TimeScale>0.5</TimeScale>
-            <Retention>0.2</Retention>
-            <Iterative>0.8</Iterative>
-            <NameGenerator>OperatingSystems</NameGenerator>
-        </Category>
-    </Categories>
-	<Needs></Needs>
-	<Features Override="True">
-        <Feature Forced="TRUE">
-            <Name>Terminal</Name>
-            <Category>General</Category>
-			<Description>The terminal is a text based UI.</Description>
-			<DevTime>3</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>4</Stability>
-			<CodeArt>1</CodeArt>
-            <Unlock>1970</Unlock>
-			<Dependencies></Dependencies>
-        </Feature>
-        <Feature Vital="TRUE">
-            <Name>3D Rendering</Name>
-            <Category>Graphics</Category>
-            <Description>This will allow 3D screen drawing.</Description>
-            <DevTime>6</DevTime>
-			<Innovation>2</Innovation>
-			<Usability>2</Usability>
-			<Stability>1</Stability>
-			<CodeArt>0.8</CodeArt>
-            <Unlock>1990</Unlock>
-			<Dependencies>
-                <Dependency Software="Operating System">GUI</Dependency>
-            </Dependencies>
-        </Feature>
+    <Needs></Needs>
+	<Features>
         <Feature>
             <Name>Hardware Acceleration</Name>
-            <Category>Graphics</Category>
-            <Description>Utilises additional hardware to perform functions</Description>
-            <DevTime>8</DevTime>
-			<Innovation>2</Innovation>
-			<Usability>2</Usability>
-			<Stability>1</Stability>
+            <Category>System</Category>
+            <Description>Utilises additional hardware to perform graphics operations.</Description>
+			<DevTime>12</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<Unlock>2000</Unlock>
 			<CodeArt>1</CodeArt>
-            <Unlock>2000</Unlock>
 			<Dependencies>
-                <Dependency Software="Operating System">3D Rendering</Dependency>
+                <Dependency Software="Operating System">3D rendering</Dependency>
             </Dependencies>
         </Feature>
         <Feature>
@@ -119,68 +44,6 @@ Most software needs an Operating System to run on. When people stop buying a lin
                 <Dependency Software="Operating System">Hardware Acceleration</Dependency>
             </Dependencies>
         </Feature>
-        <Feature Forced="TRUE">
-            <Name>Keyboard Input</Name>
-            <Category>General</Category>
-            <Description>Enable the use of a mouse and keyboard.</Description>
-            <DevTime>2</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>1</Usability>
-			<Stability>1</Stability>
-			<CodeArt>1</CodeArt>
-            <Unlock>1970</Unlock>
-			<Dependencies></Dependencies>
-        </Feature>
-        <Feature From="Keyboard Input">
-            <Name>Plug'n'Play</Name>
-            <Category>System</Category>
-            <Description>Plug in any device and let the OS download the necessary drivers.</Description>
-            <DevTime>6</DevTime>
-			<Innovation>1</Innovation>
-			<Usability>4</Usability>
-			<Stability>1</Stability>
-			<CodeArt>1</CodeArt>
-            <Unlock>1990</Unlock>
-			<Dependencies>
-                <Dependency Software="Operating System">Networking</Dependency>
-            </Dependencies>
-        </Feature>
-        <Feature Vital="TRUE">
-            <Name>Networking</Name>
-            <Category>Networking</Category>
-            <Description>Enable networking.</Description>
-			<DevTime>6</DevTime>
-			<Innovation>2</Innovation>
-			<Usability>1</Usability>
-			<Stability>1</Stability>
-			<CodeArt>1</CodeArt>
-            <Unlock>1980</Unlock>
-            <Dependencies></Dependencies>
-        </Feature>
-        <Feature>
-            <Name>Multitasking</Name>
-            <Category>Asynchrony</Category>
-            <Description>Isolated processes allow multiple applications to run simultaneously.</Description>
-			<DevTime>4</DevTime>
-			<Innovation>1</Innovation>
-			<Usability>1</Usability>
-			<Stability>0</Stability>
-			<CodeArt>1</CodeArt>
-            <Unlock>1990</Unlock>
-			<Dependencies></Dependencies>
-        </Feature>
-        <Feature From="Multitasking" Vital="TRUE">
-            <Name>Multithreading</Name>
-            <Category>Asynchrony</Category>
-            <Description>Multithreading allows utilisation of multiple processor cores.</Description>
-			<DevTime>8</DevTime>
-			<Innovation>3</Innovation>
-			<Usability>1</Usability>
-			<Stability>0</Stability>
-			<Unlock>2000</Unlock>
-			<CodeArt>1</CodeArt>
-			<Dependencies></Dependencies>
-        </Feature>
         <Feature From="Multithreading">
             <Name>Hyperthreading</Name>
             <Category>Asynchrony</Category>
@@ -193,53 +56,17 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<CodeArt>1</CodeArt>
 			<Dependencies></Dependencies>
         </Feature>
-        <Feature>
-            <Name>PC Speaker</Name>
-            <Category>Audio</Category>
-            <Description>Allows your device to beep in order to notify the user of something important.</Description>
-            <DevTime>1</DevTime>
-			<Innovation>1</Innovation>
-			<Usability>1</Usability>
-			<Stability>1</Stability>
-			<Unlock>1975</Unlock>
-			<CodeArt>1</CodeArt>
-			<Dependencies></Dependencies>            
-        </Feature>
-        <Feature From="PC Speaker" Vital="TRUE">
-            <Name>8-bit Audio</Name>
-            <Category>Audio</Category>
-            <Description>A vast improvement over the monotone beeps, but still essentially beeps.</Description>
-            <DevTime>3</DevTime>
-			<Unlock>1985</Unlock>
-			<Innovation>1</Innovation>
-			<Usability>1</Usability>
-			<Stability>1</Stability>
-			<CodeArt>0.9</CodeArt>
-			<Dependencies></Dependencies>            
-        </Feature>
-        <Feature From="8-bit Audio" Vital="TRUE">
-            <Name>HD Audio</Name>
-            <Category>Audio</Category>
-            <Description>The ability to play a full range of sounds for all your MP3 needs.</Description>
-            <DevTime>6</DevTime>
-            <Unlock>1995</Unlock>
-			<Innovation>1</Innovation>
-			<Usability>1</Usability>
-			<Stability>1</Stability>
-			<CodeArt>0.9</CodeArt>
-			<Dependencies></Dependencies>            
-        </Feature>
-        <Feature From="HD Audio" Vital="TRUE">
+        <Feature From="HD audio">
             <Name>Surround Sound</Name>
             <Category>Audio</Category>
-            <Description>The ability to control the direction from which sounds come.</Description>
-            <DevTime>8</DevTime>
-            <Unlock>2005</Unlock>
-			<Innovation>2</Innovation>
+            <Description>Ability to control the direction sounds come from.</Description>
+			<DevTime>12</DevTime>
+			<Innovation>3</Innovation>
 			<Usability>1</Usability>
-			<Stability>1</Stability>
-			<CodeArt>0.9</CodeArt>
-			<Dependencies></Dependencies>   
+			<Stability>0</Stability>
+			<Unlock>2010</Unlock>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
         </Feature>
         <Feature>
             <Name>Virtualisation</Name>

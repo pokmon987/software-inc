@@ -49,7 +49,7 @@
             <Unlock>1995</Unlock>
             <CodeArt>0.7</CodeArt>
             <Dependencies>
-                <Dependency Software="Operating System">3D Rendering</Dependency>
+                <Dependency Software="Operating System">3D rendering</Dependency>
             </Dependencies>
         </Feature>
         <Feature From="Modern UI" Vital="TRUE">
@@ -175,7 +175,7 @@
             <Unlock>1990</Unlock>
             <CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Operating System">8-bit Audio</Dependency>
+                <Dependency Software="Operating System">8-bit audio</Dependency>
             </Dependencies>
         </Feature>
         <Feature From="MIDI Music" Vital="TRUE">
@@ -189,7 +189,7 @@
             <Unlock>1995</Unlock>
             <CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Operating System">HD Audio</Dependency>
+                <Dependency Software="Operating System">HD audio</Dependency>
             </Dependencies>
         </Feature>
         <Feature From="HD Audio">
