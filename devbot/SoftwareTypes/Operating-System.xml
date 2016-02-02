@@ -25,7 +25,7 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.8</CodeArt>
-            <Unlock>2010</Unlock>
+            <Unlock>2015</Unlock>
 			<Dependencies>
                 <Dependency Software="Operating System">Hardware Acceleration</Dependency>
             </Dependencies>
@@ -44,7 +44,7 @@
                 <Dependency Software="Operating System">Hardware Acceleration</Dependency>
             </Dependencies>
         </Feature>
-        <Feature From="Multithreading">
+        <Feature>
             <Name>Hyperthreading</Name>
             <Category>Asynchrony</Category>
             <Description>Advanced thread handling doubles the effective number of processor cores.</Description>
@@ -52,9 +52,11 @@
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
-			<Unlock>2010</Unlock>
+			<Unlock>2005</Unlock>
 			<CodeArt>1</CodeArt>
-			<Dependencies></Dependencies>
+			<Dependencies>
+                <Dependency Software="Operating System">Multithreading</Dependency>
+            </Dependencies>
         </Feature>
         <Feature From="HD audio">
             <Name>Surround Sound</Name>
@@ -64,7 +66,7 @@
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
-			<Unlock>2010</Unlock>
+			<Unlock>2005</Unlock>
 			<CodeArt>1</CodeArt>
 			<Dependencies></Dependencies>
         </Feature>
