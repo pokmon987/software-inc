@@ -19,7 +19,7 @@
             <Name>Business Solution</Name>
             <Category>General</Category>
             <Description>Generic solution to important business requirements.</Description>
-            <DevTime>8</DevTime>
+            <DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>
 			<Stability>4</Stability>
@@ -33,7 +33,7 @@
             <Name>Persisted Storage</Name>
             <Category>General</Category>
             <Description>Storing data on local disks and tapes.</Description>
-            <DevTime>6</DevTime>
+            <DevTime>1</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>
 			<Stability>4</Stability>
@@ -47,7 +47,7 @@
             <Name>Basic Interaction</Name>
             <Category>Graphics</Category>
             <Description>Allow system administrators to interact, maintain, and modify the software.</Description>
-            <DevTime>4</DevTime>
+            <DevTime>1</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>4</Usability>
 			<Stability>0</Stability>
@@ -61,7 +61,7 @@
             <Name>Fallback</Name>
             <Category>Networking</Category>
             <Description>Shared resources and networking allows fallback systems to improve availability.</Description>
-            <DevTime>6</DevTime>
+            <DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>
 			<Stability>4</Stability>

@@ -6,7 +6,7 @@
             <Name>Hardware Acceleration</Name>
             <Category>System</Category>
             <Description>Utilises additional hardware to perform graphics operations.</Description>
-			<DevTime>12</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -20,7 +20,7 @@
             <Name>VR Rendering</Name>
             <Category>Graphics</Category>
             <Description>This will allow virtual reality devices.</Description>
-            <DevTime>10</DevTime>
+            <DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -34,7 +34,7 @@
             <Name>Holo Rendering</Name>
             <Category>Graphics</Category>
             <Description>This will allow holographic devices.</Description>
-            <DevTime>16</DevTime>
+            <DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -48,7 +48,7 @@
             <Name>Hyperthreading</Name>
             <Category>Asynchrony</Category>
             <Description>Advanced thread handling doubles the effective number of processor cores.</Description>
-			<DevTime>12</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -60,7 +60,7 @@
             <Name>Surround Sound</Name>
             <Category>Audio</Category>
             <Description>Ability to control the direction sounds come from.</Description>
-			<DevTime>12</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -72,7 +72,7 @@
             <Name>Virtualisation</Name>
             <Category>System</Category>
             <Description>The ability to make virtual resource sets mimicking the actual hardware.</Description>
-            <DevTime>12</DevTime>
+            <DevTime>2</DevTime>
             <Unlock>2010</Unlock>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>

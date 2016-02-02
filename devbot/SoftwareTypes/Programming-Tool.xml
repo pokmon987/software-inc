@@ -1,6 +1,6 @@
 <SoftwareType>
-	<Name>Development Software</Name>
-	<Category>Development Software</Category>
+	<Name>Programming Tool</Name>
+	<Category>Programming Tool</Category>
 	<Description>This software helps developing complex systems.</Description>
 	<Random>0.1</Random>
 	<Popularity>0.5</Popularity>
@@ -79,7 +79,7 @@
 			<Stability>1</Stability>
 			<CodeArt>0.8</CodeArt>
             <Dependencies>
-                <Dependency Software="Development Software">Editor</Dependency>
+                <Dependency Software="Programming Tool">Editor</Dependency>
             </Dependencies>
         </Feature>
         <Feature>
@@ -94,7 +94,7 @@
 			<CodeArt>1</CodeArt>
             <Server>0.2</Server>
             <Dependencies>
-                <Dependency Software="Development Software">Integrated Development Environment</Dependency>
+                <Dependency Software="Programming Tool">Integrated Development Environment</Dependency>
                 <Dependency Software="Programming Language">Internet</Dependency>
             </Dependencies>
         </Feature>
@@ -109,7 +109,7 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Development Software">Plugin Support</Dependency>
+                <Dependency Software="Programming Tool">Plugin Support</Dependency>
                 <Dependency Software="Programming Language">Multithreading</Dependency>
             </Dependencies>
         </Feature>
@@ -125,8 +125,23 @@
 			<CodeArt>1</CodeArt>
             <Server>0.5</Server>
             <Dependencies>
-                <Dependency Software="Development Software">Plugin Support</Dependency>
+                <Dependency Software="Programming Tool">Plugin Support</Dependency>
             </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Continuous Integration</Name>
+            <Category>General</Category>
+            <Description>Integrated build pipelines continuously test and build your software.</Description>
+            <Unlock>2015</Unlock>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Server>0.5</Server>
+            <Dependencies>
+                <Dependency Software="Programming Tool">Plugin Support</Dependency>
+            </Dependencies>        
         </Feature>
     </Features>
 </SoftwareType>

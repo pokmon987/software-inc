@@ -41,7 +41,7 @@
         <Feature From="Forms UI" Vital="TRUE">
             <Name>Modern UI</Name>
             <Description>The ability for the language to create modern looking UI components.</Description>
-            <DevTime>4</DevTime>
+            <DevTime>3</DevTime>
             <Innovation>3</Innovation>
             <Usability>3</Usability>
             <Stability>2</Stability>
@@ -52,10 +52,10 @@
                 <Dependency Software="Operating System">3D rendering</Dependency>
             </Dependencies>
         </Feature>
-        <Feature From="Modern UI" Vital="TRUE">
+        <Feature>
             <Name>Responsive UI</Name>
             <Description>Allows responsive UI designs that look great on all devices.</Description>
-            <DevTime>8</DevTime>
+            <DevTime>4</DevTime>
             <Innovation>3</Innovation>
             <Usability>3</Usability>
             <Stability>2</Stability>
@@ -63,13 +63,14 @@
             <Unlock>2005</Unlock>
             <CodeArt>0.5</CodeArt>
             <Dependencies>
+                <Dependency Software="Programming Language">Responsive UI</Dependency>
                 <Dependency Software="Operating System">Hardware Acceleration</Dependency>
             </Dependencies>
         </Feature>
-        <Feature From="Responsive UI" Vital="TRUE">
+        <Feature>
             <Name>VR Integration</Name>
             <Description>Allows software to interact with VR Devices.</Description>
-            <DevTime>12</DevTime>
+            <DevTime>2</DevTime>
             <Innovation>3</Innovation>
             <Usability>3</Usability>
             <Stability>2</Stability>
@@ -77,13 +78,14 @@
             <Unlock>2010</Unlock>
             <CodeArt>0.5</CodeArt>
             <Dependencies>
+                <Dependency Software="Programming Language">Responsive UI</Dependency>
                 <Dependency Software="Operating System">VR Rendering</Dependency>
             </Dependencies>
         </Feature>
         <Feature From="VR Integration" Vital="TRUE">
             <Name>Holo Integration</Name>
             <Description>Allows software to interact with Holo Devices.</Description>
-            <DevTime>16</DevTime>
+            <DevTime>3</DevTime>
             <Innovation>3</Innovation>
             <Usability>3</Usability>
             <Stability>2</Stability>
@@ -97,7 +99,7 @@
         <Feature Vital="TRUE">
             <Name>User Interaction</Name>
             <Description>The ability to interact with WebCams, Touchscreens, etc.</Description>
-            <DevTime>6</DevTime>
+            <DevTime>1</DevTime>
             <Innovation>4</Innovation>
             <Usability>2</Usability>
             <Stability>1</Stability>
@@ -111,7 +113,7 @@
         <Feature Vital="TRUE">
             <Name>Local Networking</Name>
             <Description>The ability to interfact with networked devices over LAN.</Description>
-            <DevTime>2</DevTime>
+            <DevTime>1</DevTime>
             <Innovation>2</Innovation>
             <Usability>1</Usability>
             <Stability>1</Stability>
@@ -139,7 +141,7 @@
         <Feature>
             <Name>Multitasking</Name>
             <Description>The ability to run multiple applications on the same system.</Description>
-            <DevTime>2</DevTime>
+            <DevTime>1</DevTime>
             <Innovation>3</Innovation>
             <Usability>2</Usability>
             <Stability>1</Stability>
@@ -153,7 +155,7 @@
         <Feature From="Multitasking">
             <Name>Multithreading</Name>
             <Description>The ability for applications to utilise multiple processor cores.</Description>
-            <DevTime>8</DevTime>
+            <DevTime>1</DevTime>
             <Innovation>3</Innovation>
             <Usability>2</Usability>
             <Stability>1</Stability>
@@ -167,7 +169,7 @@
         <Feature>
             <Name>MIDI Music</Name>
             <Description>The ability to play adorable 8-bit music.</Description>
-            <DevTime>2</DevTime>
+            <DevTime>1</DevTime>
             <Innovation>1</Innovation>
             <Usability>2</Usability>
             <Stability>1</Stability>
@@ -181,7 +183,7 @@
         <Feature From="MIDI Music" Vital="TRUE">
             <Name>HD Audio</Name>
             <Description>The ability to play a full range of sounds from music to gunshots.</Description>
-            <DevTime>4</DevTime>
+            <DevTime>2</DevTime>
             <Innovation>4</Innovation>
             <Usability>2</Usability>
             <Stability>1</Stability>
@@ -195,7 +197,7 @@
         <Feature From="HD Audio">
             <Name>Surround Sound</Name>
             <Description>The ability to control the direction of sounds.</Description>
-            <DevTime>6</DevTime>
+            <DevTime>3</DevTime>
             <Innovation>2</Innovation>
             <Usability>2</Usability>
             <Stability>1</Stability>
@@ -209,7 +211,7 @@
         <Feature>
             <Name>Virtualisation</Name>
             <Description>The ability to utilise virtual resource sets.</Description>
-            <DevTime>10</DevTime>
+            <DevTime>2</DevTime>
             <Innovation>1</Innovation>
             <Usability>1</Usability>
             <Stability>2</Stability>
