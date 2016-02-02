@@ -11,49 +11,115 @@
 	<InHouse>True</InHouse>
 	<NameGenerator>ServerSoftware</NameGenerator>
 	<Needs>
-        <Name>Programming Language</Name>
+        <Name>Dev Tooling</Name>
+        <Name>Database</Name>
     </Needs>
     <Features>
-        <Feature Forced="TRUE">
-            <Name>Business Solution</Name>
+        <Feature>
+            <Name>Data Storage</Name>
             <Category>General</Category>
-            <Description>Generic solution to important business requirements.</Description>
-            <DevTime>2</DevTime>
+            <Description>Mass storage of business data.</Description>
+            <DevTime>3</DevTime>
 			<Innovation>2</Innovation>
-			<Usability>0</Usability>
-			<Stability>4</Stability>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1980</Unlock>
 			<CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Programming Language">Terminal</Dependency>
+                <Dependency Software="Dev Tooling">Editor</Dependency>
+                <Dependency Software="Database">ACID</Dependency>
             </Dependencies>
         </Feature>
         <Feature>
-            <Name>Basic Interaction</Name>
-            <Category>Graphics</Category>
-            <Description>Allow system administrators to interact, maintain, and modify the software.</Description>
-            <DevTime>1</DevTime>
-			<Innovation>2</Innovation>
-			<Usability>4</Usability>
-			<Stability>0</Stability>
+            <Name>Transactions</Name>
+            <Category>System</Category>
+            <Description>Transaction processes allow storage of delicate data such as financial records.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
             <Unlock>1985</Unlock>
-            <CodeArt>0.5</CodeArt>
+			<CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Programming Language">User Interaction</Dependency>
+                <Dependency Software="Dev Tooling">Compiler</Dependency>
+                <Dependency Software="Database">Transactions</Dependency>
             </Dependencies>
         </Feature>
         <Feature>
-            <Name>Fallback</Name>
-            <Category>Networking</Category>
-            <Description>Shared resources and networking allows fallback systems to improve availability.</Description>
-            <DevTime>2</DevTime>
-			<Innovation>2</Innovation>
-			<Usability>0</Usability>
-			<Stability>4</Stability>
+            <Name>UI</Name>
+            <Category>Graphics</Category>
+            <Description>Basic UI allows system administrators to maintain the software.</Description>
+            <DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
             <Unlock>1990</Unlock>
-            <CodeArt>1</CodeArt>
+			<CodeArt>0.5</CodeArt>
             <Dependencies>
-                <Dependency Software="Programming Language">Local Networking</Dependency>
+                <Dependency Software="Dev Tooling">IDE</Dependency>
+                <Dependency Software="Database">UI</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Redundancy</Name>
+            <Category>Networking</Category>
+            <Description>Networked servers and database replication allows fallback measures.</Description>
+            <DevTime>4</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>1</Usability>
+			<Stability>5</Stability>
+            <Unlock>1995</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Dev Tooling">Auto-complete</Dependency>
+                <Dependency Software="Database">Replication</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>High Availability</Name>
+            <Category>Networking</Category>
+            <Description>Off-site servers are utilised to increase service availability.</Description>
+            <DevTime>4</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>1</Usability>
+			<Stability>6</Stability>
+            <Unlock>2000</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Mainframe Software">Redundancy</Dependency>
+                <Dependency Software="Dev Tooling">Plugin Support</Dependency>
+                <Dependency Software="Database">Geo-Redundancy</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Remote Support</Name>
+            <Category>Graphics</Category>
+            <Description>Improved UI designs allow support engineers to access systems from mobile devices.</Description>
+            <DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>6</Usability>
+			<Stability>1</Stability>
+            <Unlock>2005</Unlock>
+			<CodeArt>0.5</CodeArt>
+            <Dependencies>
+                <Dependency Software="Dev Tooling">Automated Testing</Dependency>
+                <Dependency Software="Database">Responsive UI</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Cloud Hosting</Name>
+            <Category>Networking</Category>
+            <Description>Allow customers to utilise databases in your cloud infrastructure. WARNING: Considerable server load!</Description>
+            <DevTime>5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>7</Stability>
+            <Unlock>2010</Unlock>
+			<CodeArt></CodeArt>
+            <Server>100</Server>
+            <Dependencies>
+                <Dependency Software="Dev Tooling">Package Repository</Dependency>
+                <Dependency Software="Database">Cloud Hosting</Dependency>
             </Dependencies>
         </Feature>
     </Features>
