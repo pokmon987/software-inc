@@ -6,9 +6,9 @@
     <Retention>0.9</Retention>
     <Iterative>0.1</Iterative>
     <Category>Programming Language</Category>
-    <OSSpecific>TRUE</OSSpecific>
-    <OneClient>FALSE</OneClient>
-    <InHouse>TRUE</InHouse>
+    <OSSpecific>True</OSSpecific>
+    <OneClient>False</OneClient>
+    <InHouse>True</InHouse>
     <NameGenerator>Languages</NameGenerator>
     <Needs></Needs>
     <Features>

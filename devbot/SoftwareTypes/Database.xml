@@ -6,8 +6,8 @@
     <Popularity>0.4</Popularity>
     <Retention>0.9</Retention>
     <Iterative>0.4</Iterative>
-	<OSSpecific>TRUE</OSSpecific>
-	<OneClient>FALSE</OneClient>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
 	<NameGenerator>Databases</NameGenerator>
     <Needs>
