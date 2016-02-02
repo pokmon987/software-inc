@@ -12,7 +12,6 @@
 	<NameGenerator>ServerSoftware</NameGenerator>
 	<Needs>
         <Name>Programming Language</Name>
-        <Name>Database</Name>
     </Needs>
     <Features>
         <Feature Forced="TRUE">
@@ -23,24 +22,10 @@
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>
 			<Stability>4</Stability>
-            <Unlock>1970</Unlock>
+            <Unlock>1980</Unlock>
 			<CodeArt>1</CodeArt>
             <Dependencies>
                 <Dependency Software="Programming Language">Terminal</Dependency>
-            </Dependencies>
-        </Feature>
-        <Feature Forced="TRUE" Vital="TRUE">
-            <Name>Persisted Storage</Name>
-            <Category>General</Category>
-            <Description>Storing data on local disks and tapes.</Description>
-            <DevTime>1</DevTime>
-			<Innovation>2</Innovation>
-			<Usability>0</Usability>
-			<Stability>4</Stability>
-            <Unlock>1980</Unlock>
-            <CodeArt>1</CodeArt>
-            <Dependencies>
-                <Dependency Software="Database">ACID</Dependency>
             </Dependencies>
         </Feature>
         <Feature>
@@ -65,11 +50,10 @@
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>
 			<Stability>4</Stability>
-            <Unlock>1985</Unlock>
+            <Unlock>1990</Unlock>
             <CodeArt>1</CodeArt>
             <Dependencies>
                 <Dependency Software="Programming Language">Local Networking</Dependency>
-                <Dependency Software="Database">Transactions</Dependency>
             </Dependencies>
         </Feature>
     </Features>
