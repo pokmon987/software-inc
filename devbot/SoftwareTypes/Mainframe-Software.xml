@@ -115,7 +115,7 @@
 			<Usability>1</Usability>
 			<Stability>7</Stability>
             <Unlock>2010</Unlock>
-			<CodeArt></CodeArt>
+			<CodeArt>1</CodeArt>
             <Server>100</Server>
             <Dependencies>
                 <Dependency Software="Dev Tooling">Package Repository</Dependency>
