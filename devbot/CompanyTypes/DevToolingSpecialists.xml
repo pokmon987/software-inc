@@ -1,0 +1,10 @@
+<CompanyType>
+    <Specialization>Dev Tooling</Specialization>
+    <Force>Dev Tooling</Force>
+    <PerYear>0.2</PerYear>
+    <Min>1</Min>
+    <Max>3</Max>
+    <Types>
+        <Type Software="Dev Tooling">1</Type>
+    </Types>
+</CompanyType>
