@@ -5,6 +5,6 @@
     <Min></Min>
     <Max></Max>
     <Types>
-        <Type Software="Software Type">1</Type>
+        <Type Software="Software Type" Category="Category">1</Type>
     </Types>
 </CompanyType>
