@@ -41,10 +41,10 @@
             <Name>ARKANET</Name>
             <Category>Network</Category>
             <Description>Before the internet, was the ARKANET.</Description>
-            <DevTime>2</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1970</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.007</Server>
@@ -55,10 +55,10 @@
             <Name>T1C</Name>
             <Category>Network</Category>
             <Description>3.2 Mbps line</Description>
-            <DevTime>3</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1976</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.021</Server>
@@ -69,10 +69,10 @@
             <Name>T2</Name>
             <Category>Network</Category>
             <Description>6.3 Mbps Line</Description>
-            <DevTime>4</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1979</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.042</Server>
@@ -83,10 +83,10 @@
             <Name>T4</Name>
             <Category>Network</Category>
             <Description>274 Mbps Line</Description>
-            <DevTime>5</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>7</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1991</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>1.827</Server>
@@ -97,10 +97,10 @@
             <Name>T1</Name>
             <Category>Network</Category>
             <Description>1.5 Mbps Line</Description>
-            <DevTime>2</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1973</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.01</Server>
@@ -111,10 +111,10 @@
             <Name>T3</Name>
             <Category>Network</Category>
             <Description>45 Mbps Line</Description>
-            <DevTime>3</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>7</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1982</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.3</Server>
@@ -125,10 +125,10 @@
             <Name>OC-1</Name>
             <Category>Network</Category>
             <Description>51 Mbps Line</Description>
-            <DevTime>4</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>8</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1985</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.34</Server>
@@ -139,10 +139,10 @@
             <Name>OC-3</Name>
             <Category>Network</Category>
             <Description>155 Mbps Line</Description>
-            <DevTime>5</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>9</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1988</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>155</Server>
@@ -153,10 +153,10 @@
             <Name>OC-12</Name>
             <Category>Network</Category>
             <Description>622 Mbps</Description>
-            <DevTime>6</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>10</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1995</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>1.033</Server>
@@ -167,10 +167,10 @@
             <Name>OC-48</Name>
             <Category>Network</Category>
             <Description>2.4 Gbps Line</Description>
-            <DevTime>7</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>11</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1999</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>13.6</Server>
@@ -181,10 +181,10 @@
             <Name>OC-192</Name>
             <Category>Network</Category>
             <Description>9.6 Gbps Line</Description>
-            <DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>12</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>2003</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>64</Server>
@@ -195,10 +195,10 @@
             <Name>OC-256</Name>
             <Category>Network</Category>
             <Description>13.1 Gbps Line</Description>
-            <DevTime>9</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>13</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>2007</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>87.333</Server>
@@ -209,10 +209,10 @@
             <Name>OC-768</Name>
             <Category>Network</Category>
             <Description>40 Gbps Line</Description>
-            <DevTime>10</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>14</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>2011</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>266.667</Server>
@@ -223,10 +223,10 @@
             <Name>Dial-up</Name>
             <Category>Network</Category>
             <Description>56 Kbps Line</Description>
-            <DevTime>2</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1993</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.00003</Server>
@@ -237,10 +237,10 @@
             <Name>ADSL</Name>
             <Category>Network</Category>
             <Description>100 Kbps Line</Description>
-            <DevTime>3</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>1997</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.00006</Server>
@@ -251,10 +251,10 @@
             <Name>ADSL 2+</Name>
             <Category>Network</Category>
             <Description>1 Mbps Line</Description>
-            <DevTime>4</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>7</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>2001</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.007</Server>
@@ -265,10 +265,10 @@
             <Name>Cable</Name>
             <Category>Network</Category>
             <Description>10 Mbps Line</Description>
-            <DevTime>5</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>8</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>2005</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.067</Server>
@@ -279,10 +279,10 @@
             <Name>Fibre</Name>
             <Category>Network</Category>
             <Description>25 Mbps Line</Description>
-            <DevTime>6</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>9</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>2009</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.167</Server>
@@ -293,10 +293,10 @@
             <Name>High-speed Fibre</Name>
             <Category>Network</Category>
             <Description>100 Mbps Line</Description>
-            <DevTime>7</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>10</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>2012</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.667</Server>
@@ -307,10 +307,10 @@
             <Name>Ultra Fibre</Name>
             <Category>Network</Category>
             <Description>1 Gbps Line</Description>
-            <DevTime>8</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>1</Stability>
+            <DevTime>11</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
             <Unlock>2016</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>6.667</Server>
