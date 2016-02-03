@@ -1,0 +1,14 @@
+-start(bespoke)
+-bespoke(suffix)
+Audio
+Sound
+Wave
+Music
+-suffix(end)
+Professional
+Express
+Ultimate
+Caster
+Editor
+Dev Tools
+-end(stop)

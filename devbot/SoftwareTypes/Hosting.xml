@@ -48,9 +48,7 @@
             <Unlock>1970</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.007</Server>
-            <Dependencies>
-                <Dependency Software="Operating System" Category="PC">Terminal</Dependency>
-            </Dependencies>
+            <Dependencies></Dependencies>
             <SoftwareCategory>Specialist</SoftwareCategory>
         </Feature>
         <Feature From="ARKANET">
