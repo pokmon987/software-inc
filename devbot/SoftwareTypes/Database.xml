@@ -26,7 +26,7 @@
             <Unlock>1980</Unlock>
 			<CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Programming Language">Multitasking</Dependency>
+                <Dependency Software="Programming Language">Terminal</Dependency>
                 <Dependency Software="Dev Tooling">Editor</Dependency>
             </Dependencies>
         </Feature>
