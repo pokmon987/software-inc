@@ -1,8 +1,12 @@
 <Scenario>
 	<Name>1970 Start</Name>
 	<Money>
-		<Amount>1000</Amount>
-		<Amount>2000</Amount>
+		<Amount>1500</Amount>
+		<Amount>4500</Amount>
+        <Amount>7500</Amount>
+        <Amount>15000</Amount>
+        <Amount>75000</Amount>
+        <Amount>375000</Amount>
 	</Money>
 	<Goals></Goals>
 	<Years>
