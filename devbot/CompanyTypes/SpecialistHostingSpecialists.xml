@@ -1,0 +1,10 @@
+<CompanyType>
+    <Specialization>Specialist Hosting Specialists</Specialization>
+    <Force>Hosting,Specialist</Force>
+    <PerYear>0.2</PerYear>
+    <Min>1</Min>
+    <Max>3</Max>
+    <Types>
+        <Type Software="Hosting" Category="Specialist">1</Type>
+    </Types>
+</CompanyType>
