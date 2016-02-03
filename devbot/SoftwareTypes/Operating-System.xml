@@ -2,6 +2,45 @@
 	<Name>Operating System</Name>
     <Needs></Needs>
 	<Features>
+        <Feature Forced="True">
+            <Name>PC Drivers</Name>
+            <Category>1</Category>
+            <Description>Drivers for running PC hardware.</Description>
+            <DevTime>0</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+            <Unlock>1970</Unlock>
+			<CodeArt>1970</CodeArt>
+            <Dependencies></Dependencies>
+            <SoftwareCategory>Computer</SoftwareCategory>
+        </Feature>
+        <Feature Forced="True">
+            <Name>Console Drivers</Name>
+            <Category>1</Category>
+            <Description>Drivers for running Console hardware.</Description>
+            <DevTime>0</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+            <Unlock>1970</Unlock>
+			<CodeArt>1970</CodeArt>
+            <Dependencies></Dependencies>
+            <SoftwareCategory>Console</SoftwareCategory>
+        </Feature>
+        <Feature Forced="True">
+            <Name>Phone Drivers</Name>
+            <Category>1</Category>
+            <Description>Drivers for running Phone hardware.</Description>
+            <DevTime>0</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+            <Unlock>1970</Unlock>
+			<CodeArt>1970</CodeArt>
+            <Dependencies></Dependencies>
+            <SoftwareCategory>Phone</SoftwareCategory>
+        </Feature>
         <Feature>
             <Name>Hardware Acceleration</Name>
             <Category>System</Category>
