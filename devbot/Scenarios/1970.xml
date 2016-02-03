@@ -1,12 +1,12 @@
 <Scenario>
-	<Name>1970 Start</Name>
+	<Name>Recommended</Name>
 	<Money>
-		<Amount>1500</Amount>
-		<Amount>4500</Amount>
-        <Amount>7500</Amount>
-        <Amount>15000</Amount>
-        <Amount>75000</Amount>
-        <Amount>375000</Amount>
+		<Amount>1666</Amount>
+		<Amount>5000</Amount>
+        <Amount>10000</Amount>
+        <Amount>20000</Amount>
+        <Amount>50000</Amount>
+        <Amount>500000</Amount>
 	</Money>
 	<Goals></Goals>
 	<Years>
@@ -14,5 +14,5 @@
 	</Years>
 	<Events>
 	</Events>
-	<Simulation>TRUE</Simulation>
+	<Simulation>False</Simulation>
 </Scenario>
