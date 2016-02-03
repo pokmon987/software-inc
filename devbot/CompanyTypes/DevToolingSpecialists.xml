@@ -1,6 +1,5 @@
 <CompanyType>
     <Specialization>Dev Tooling</Specialization>
-    <Force>Dev Tooling</Force>
     <PerYear>0.2</PerYear>
     <Min>1</Min>
     <Max>3</Max>
