@@ -67,7 +67,7 @@
             <Unlock>1985</Unlock>
 			<CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Programming Language">Local Network</Dependency>
+                <Dependency Software="Programming Language">Local Networking</Dependency>
             </Dependencies>
         </Feature>
         <Feature From="UI Upgrade">

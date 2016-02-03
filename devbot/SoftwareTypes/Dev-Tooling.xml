@@ -25,7 +25,7 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Programming Language">Forms UI</Dependency>
+                <Dependency Software="Programming Language">Terminal</Dependency>
             </Dependencies>
         </Feature>
         <Feature Vital="TRUE">
@@ -82,7 +82,7 @@
 			<CodeArt>1</CodeArt>
             <Server>0.2</Server>
             <Dependencies>
-                <Dependency Software="Dev Tooling">Integrated Development Environment</Dependency>
+                <Dependency Software="Dev Tooling">IDE</Dependency>
                 <Dependency Software="Programming Language">Internet</Dependency>
             </Dependencies>
         </Feature>

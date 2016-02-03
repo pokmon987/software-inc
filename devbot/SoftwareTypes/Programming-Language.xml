@@ -12,7 +12,7 @@
     <NameGenerator>Languages</NameGenerator>
     <Needs></Needs>
     <Features>
-        <Feature Forced="TRUE">
+        <Feature Vital="True" Forced="True">
             <Name>Terminal</Name>
             <Description>The ability for the language to utilise a terminal window.</Description>
             <DevTime>1</DevTime>
@@ -24,7 +24,7 @@
             <CodeArt>1</CodeArt>
             <Dependencies></Dependencies>
         </Feature>
-        <Feature From="Terminal" Vital="TRUE">
+        <Feature From="Terminal" Vital="True">
             <Name>Forms UI</Name>
             <Description>The ability for the language to create Forms on the screen.</Description>
             <DevTime>2</DevTime>
@@ -38,7 +38,7 @@
                 <Dependency Software="Operating System">GUI</Dependency>
             </Dependencies>
         </Feature>
-        <Feature From="Forms UI" Vital="TRUE">
+        <Feature From="Forms UI" Vital="True">
             <Name>Modern UI</Name>
             <Description>The ability for the language to create modern looking UI components.</Description>
             <DevTime>3</DevTime>
@@ -52,7 +52,7 @@
                 <Dependency Software="Operating System">3D rendering</Dependency>
             </Dependencies>
         </Feature>
-        <Feature From="Modern UI" Vital="TRUE">
+        <Feature From="Modern UI" Vital="True">
             <Name>Responsive UI</Name>
             <Description>Allows responsive UI designs that look great on all devices.</Description>
             <DevTime>4</DevTime>
@@ -82,7 +82,7 @@
                 <Dependency Software="Operating System">Holo Rendering</Dependency>
             </Dependencies>
         </Feature>
-        <Feature From="VR Integration" Vital="TRUE">
+        <Feature From="VR Integration" Vital="True">
             <Name>Holo Integration</Name>
             <Description>Allows software to interact with Holo Devices.</Description>
             <DevTime>3</DevTime>
@@ -96,7 +96,7 @@
                 <Dependency Software="Operating System">Holo Rendering</Dependency>
             </Dependencies>
         </Feature>
-        <Feature Vital="TRUE">
+        <Feature Vital="True">
             <Name>User Interaction</Name>
             <Description>The ability to interact with WebCams, Touchscreens, etc.</Description>
             <DevTime>1</DevTime>
@@ -110,7 +110,7 @@
                 <Dependency Software="Operating System">Plug'n'Play</Dependency>
             </Dependencies>
         </Feature>
-        <Feature Vital="TRUE">
+        <Feature Vital="True">
             <Name>Local Networking</Name>
             <Description>The ability to interfact with networked devices over LAN.</Description>
             <DevTime>1</DevTime>
@@ -124,7 +124,7 @@
                 <Dependency Software="Operating System">Networking</Dependency>
             </Dependencies>
         </Feature>
-        <Feature From="Local Networking" Vital="TRUE">
+        <Feature From="Local Networking" Vital="True">
             <Name>Internet</Name>
             <Description>The ability to interfact with networked devices over the world wide web.</Description>
             <DevTime>2</DevTime>
@@ -180,7 +180,7 @@
                 <Dependency Software="Operating System">8-bit audio</Dependency>
             </Dependencies>
         </Feature>
-        <Feature From="MIDI Music" Vital="TRUE">
+        <Feature From="MIDI Music" Vital="True">
             <Name>HD Audio</Name>
             <Description>The ability to play a full range of sounds from music to gunshots.</Description>
             <DevTime>2</DevTime>
