@@ -44,7 +44,6 @@
                 <Dependency Software="Programming Language">Local Networking</Dependency>
                 <Dependency Software="Dev Tooling">Compiler</Dependency>
             </Dependencies>
-            <SoftwareCategory>Database</SoftwareCategory>
         </Feature>
         <Feature>
             <Name>UI</Name>
