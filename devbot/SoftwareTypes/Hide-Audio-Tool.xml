@@ -1,6 +1,6 @@
 <SoftwareType Override="True">
-	<Name>Webbased Game</Name>
-    <Delete>True</Delete>
+	<Name>Audio Tool</Name>
+    <Unlock>2050</Unlock>
     <Needs></Needs>
     <Features>
         <Feature>
@@ -8,10 +8,10 @@
             <Category>General</Category>
             <Description>Dummy</Description>
             <Unlock>1970</Unlock>
-            <DevTime>0</DevTime>
-			<Innovation>0</Innovation>
-			<Usability>0</Usability>
-			<Stability>0</Stability>
+            <DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
             <Dependencies></Dependencies>
         </Feature>
