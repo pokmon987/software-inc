@@ -3,7 +3,7 @@
 	<Category>Programming Tooling</Category>
 	<Description>This software helps develop complex systems.</Description>
 	<Random>0.1</Random>
-	<Popularity>0.5</Popularity>
+	<Popularity>0.2</Popularity>
     <Retention>0.9</Retention>
     <Iterative>0.4</Iterative>
 	<OSSpecific>True</OSSpecific>
