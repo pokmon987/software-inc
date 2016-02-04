@@ -3,7 +3,7 @@
 	<Category>Business Software</Category>
 	<Description>Software businesses can use to manage their products, suppliers, customers and general operations.</Description>
 	<Random>0.7</Random>
-	<Popularity>0.2</Popularity>
+	<Popularity>0.04</Popularity>
     <Retention>0.4</Retention>
     <Iterative>0.4</Iterative>
 	<OSSpecific>True</OSSpecific>
