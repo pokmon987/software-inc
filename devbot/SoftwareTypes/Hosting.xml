@@ -48,7 +48,9 @@
             <Unlock>1970</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.007</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Specialist</SoftwareCategory>
         </Feature>
         <Feature From="ARKANET">
@@ -62,7 +64,9 @@
             <Unlock>1976</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.021</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Specialist</SoftwareCategory>
         </Feature>
         <Feature From="T1C">
@@ -76,7 +80,9 @@
             <Unlock>1979</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.042</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Specialist</SoftwareCategory>
         </Feature>
         <Feature From="T2">
@@ -90,7 +96,9 @@
             <Unlock>1991</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>1.827</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Specialist</SoftwareCategory>
         </Feature>
         <Feature Forced="True">
@@ -104,7 +112,9 @@
             <Unlock>1973</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.01</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Business</SoftwareCategory>
         </Feature>
         <Feature From="T1">
@@ -118,7 +128,9 @@
             <Unlock>1982</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.3</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Business</SoftwareCategory>
         </Feature>
         <Feature From="T3">
@@ -132,7 +144,9 @@
             <Unlock>1985</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.34</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Business</SoftwareCategory>
         </Feature>
         <Feature From="OC-1">
@@ -146,7 +160,9 @@
             <Unlock>1988</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>155</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Business</SoftwareCategory>
         </Feature>
         <Feature From="OC-3">
@@ -160,7 +176,9 @@
             <Unlock>1995</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>1.033</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Business</SoftwareCategory>
         </Feature>
         <Feature From="OC-12">
@@ -174,7 +192,9 @@
             <Unlock>1999</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>13.6</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Business</SoftwareCategory>
         </Feature>
         <Feature From="OC-48">
@@ -188,7 +208,9 @@
             <Unlock>2003</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>64</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Business</SoftwareCategory>
         </Feature>
         <Feature From="OC-192">
@@ -202,7 +224,9 @@
             <Unlock>2007</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>87.333</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Business</SoftwareCategory>
         </Feature>
         <Feature From="OC-256">
@@ -216,7 +240,9 @@
             <Unlock>2011</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>266.667</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Business</SoftwareCategory>
         </Feature>
         <Feature Forced="True">
@@ -230,7 +256,9 @@
             <Unlock>1993</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.00003</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Consumer</SoftwareCategory>
         </Feature>
         <Feature From="Dial-up">
@@ -244,7 +272,9 @@
             <Unlock>1997</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.00006</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Consumer</SoftwareCategory>
         </Feature>
         <Feature From="ADSL">
@@ -258,7 +288,9 @@
             <Unlock>2001</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.007</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Consumer</SoftwareCategory>
         </Feature>
         <Feature From="ADSL 2+">
@@ -272,7 +304,9 @@
             <Unlock>2005</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.067</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Consumer</SoftwareCategory>
         </Feature>
         <Feature From="Cable">
@@ -286,7 +320,9 @@
             <Unlock>2009</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.167</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Consumer</SoftwareCategory>
         </Feature>
         <Feature From="Fibre">
@@ -300,7 +336,9 @@
             <Unlock>2012</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.667</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Consumer</SoftwareCategory>
         </Feature>
         <Feature>
@@ -314,7 +352,9 @@
             <Unlock>2016</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>6.667</Server>
-            <Dependencies></Dependencies>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
             <SoftwareCategory>Consumer</SoftwareCategory>
         </Feature>
     </Features>
