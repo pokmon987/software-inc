@@ -2,7 +2,7 @@
     <Name>Programming Language</Name>
     <Description>Allows development of software.</Description>
     <Random>0.1</Random>
-    <Popularity>0.5</Popularity>
+    <Popularity>0.1</Popularity>
     <Retention>0.9</Retention>
     <Iterative>0.1</Iterative>
     <Category>Programming Language</Category>
