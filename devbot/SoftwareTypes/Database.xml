@@ -3,7 +3,7 @@
 	<Category>Database</Category>
 	<Description>Organised collections of data used for more advanced software solutions.</Description>
 	<Random>0.5</Random>
-    <Popularity>0.4</Popularity>
+    <Popularity>0.1</Popularity>
     <Retention>0.9</Retention>
     <Iterative>0.4</Iterative>
 	<OSSpecific>True</OSSpecific>
