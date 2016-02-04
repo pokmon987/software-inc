@@ -3,7 +3,7 @@
 	<Category>Mainframe Software</Category>
 	<Description>Business critical software to run on Mainframes.</Description>
 	<Random>0.5</Random>
-	<Popularity>0.5</Popularity>
+	<Popularity>0.1</Popularity>
     <Retention>0.9</Retention>
     <Iterative>0.4</Iterative>
 	<OSSpecific>True</OSSpecific>
