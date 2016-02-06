@@ -1,0 +1,20 @@
+<SoftwareType Override="True">
+	<Name>Webbased Game</Name>
+    <Unlock>2050</Unlock>
+    <Delete>True</Delete>
+    <Needs></Needs>
+    <Features>
+        <Feature>
+            <Name>Dummy</Name>
+            <Category>General</Category>
+            <Description>Dummy</Description>
+            <Unlock>1970</Unlock>
+            <DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependencies></Dependencies>
+        </Feature>
+    </Features>
+</SoftwareType>

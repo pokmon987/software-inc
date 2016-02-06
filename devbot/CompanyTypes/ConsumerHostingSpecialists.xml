@@ -1,9 +1,0 @@
-<CompanyType>
-    <Specialization>Consumer Hosting Specialists</Specialization>
-    <PerYear>0.2</PerYear>
-    <Min>3</Min>
-    <Max>8</Max>
-    <Types>
-        <Type Software="Hosting" Category="Consumer">1</Type>
-    </Types>
-</CompanyType>
