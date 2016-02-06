@@ -1,5 +1,6 @@
 <SoftwareType Override="True">
-	<Name>Game Engine</Name>
+	<Name>Visual Tool</Name>
+    <Delete>True</Delete>
     <Unlock>2050</Unlock>
     <Needs></Needs>
     <Features>
