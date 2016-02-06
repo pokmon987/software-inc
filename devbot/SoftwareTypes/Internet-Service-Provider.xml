@@ -1,0 +1,122 @@
+<SoftwareType>
+	<Name>Consumer Networking</Name>
+	<Category>Internet Service Provisioning</Category>
+	<Description>Utilise your server bandwidth to provide internet services.</Description>
+	<Random>0.5</Random>
+    <Popularity>0.04</Popularity>
+    <Retention>0.7</Retention>
+    <Iterative>1</Iterative>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Needs>
+        <Name>Specialist Networking</Name>
+    </Needs>
+    <Features>
+        <Feature Forced="True">
+            <Name>Dial-up</Name>
+            <Category>Network</Category>
+            <Description>56 Kbps Line</Description>
+            <DevTime>5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>1993</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>0.00003</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature From="Dial-up">
+            <Name>ADSL</Name>
+            <Category>Network</Category>
+            <Description>100 Kbps Line</Description>
+            <DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>1997</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>0.00006</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature From="ADSL">
+            <Name>ADSL 2+</Name>
+            <Category>Network</Category>
+            <Description>1 Mbps Line</Description>
+            <DevTime>7</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>2001</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>0.007</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature From="ADSL 2+">
+            <Name>Cable</Name>
+            <Category>Network</Category>
+            <Description>10 Mbps Line</Description>
+            <DevTime>8</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>2005</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>0.067</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature From="Cable">
+            <Name>Fibre</Name>
+            <Category>Network</Category>
+            <Description>25 Mbps Line</Description>
+            <DevTime>9</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>2009</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>0.167</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature From="Fibre">
+            <Name>High-speed Fibre</Name>
+            <Category>Network</Category>
+            <Description>100 Mbps Line</Description>
+            <DevTime>10</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>2012</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>0.667</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Ultra Fibre</Name>
+            <Category>Network</Category>
+            <Description>1 Gbps Line</Description>
+            <DevTime>11</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>2016</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>6.667</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+            </Dependencies>
+        </Feature>
+    </Features>
+</SoftwareType>    
