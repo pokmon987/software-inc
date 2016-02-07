@@ -3,7 +3,7 @@
     <Force>Programming Language,Assembly</Force>
     <PerYear>0.2</PerYear>
     <Min>2</Min>
-    <Max>6</Max>
+    <Max>4</Max>
     <Types>
         <Type Software="Programming Language" Category="Assembly">1</Type>
         <Type Software="Programming Language" Category="Procedural">1</Type>
