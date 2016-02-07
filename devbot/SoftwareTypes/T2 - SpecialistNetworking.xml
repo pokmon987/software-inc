@@ -1,0 +1,114 @@
+<SoftwareType>
+	<Name>Specialist Networking</Name>
+	<Category>Specialist Networking</Category>
+	<Description>Utilise your server bandwidth to provide networks to specialist facilities such as universities, laboratories, and government institutions.</Description>
+	<Random>0.5</Random>
+    <Popularity>0.002</Popularity>
+    <Retention>0.9</Retention>
+    <Iterative>1</Iterative>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+    <NameGenerator>Networks</NameGenerator>
+	<Needs>
+        <Name>Programming Language</Name>
+    </Needs>
+    <Features>
+        <Feature Forced="True">
+            <Name>ARKANET</Name>
+            <Category>Network</Category>
+            <Description>Before the internet, was the ARKANET.</Description>
+            <DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>1970</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>0.007</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+                <Dependency Software="Programming Language">Terminal</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature From="ARKANET">
+            <Name>T1</Name>
+            <Category>Network</Category>
+            <Description>1.5 Mbps Line</Description>
+            <DevTime>5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>1973</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>0.01</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+                <Dependency Software="Programming Language">Terminal</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature From="T1">
+            <Name>T1C</Name>
+            <Category>Network</Category>
+            <Description>3.2 Mbps line</Description>
+            <DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>1976</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>0.021</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+                <Dependency Software="Programming Language">Terminal</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature From="T1C">
+            <Name>T2</Name>
+            <Category>Network</Category>
+            <Description>6.3 Mbps Line</Description>
+            <DevTime>7</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>1979</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>0.042</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+                <Dependency Software="Programming Language">Terminal</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature From="T2">
+            <Name>T4</Name>
+            <Category>Network</Category>
+            <Description>274 Mbps Line</Description>
+            <DevTime>8</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>1991</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>1.827</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+                <Dependency Software="Programming Language">Terminal</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature From="T4">
+            <Name>OC-48</Name>
+            <Category>Network</Category>
+            <Description>2.4 Gbps Line</Description>
+            <DevTime>9</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>1999</Unlock>
+			<CodeArt>1</CodeArt>
+            <Server>13.6</Server>
+            <Dependencies>
+                <Dependency Software="Operating System">PC Drivers</Dependency>
+                <Dependency Software="Programming Language">Terminal</Dependency>
+            </Dependencies>
+        </Feature>
+    </Features>
+</SoftwareType>
