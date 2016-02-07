@@ -2,223 +2,267 @@
     <Name>Programming Language</Name>
     <Description>Allows development of software.</Description>
     <Random>0.1</Random>
-    <Popularity>0.1</Popularity>
-    <Retention>0.9</Retention>
-    <Iterative>0.1</Iterative>
     <Category>Programming Language</Category>
     <OSSpecific>True</OSSpecific>
     <OneClient>False</OneClient>
     <InHouse>True</InHouse>
     <NameGenerator>Languages</NameGenerator>
     <Needs></Needs>
-    <Features>
-        <Feature Vital="True" Forced="True">
-            <Name>Terminal</Name>
-            <Description>The ability for the language to utilise a terminal window.</Description>
-            <DevTime>1</DevTime>
-            <Innovation>1</Innovation>
-            <Usability>1</Usability>
-            <Stability>1</Stability>
-            <Category>General</Category>
+    <Categories>
+        <Category Name="Assembly">
+            <Description>Rudimentary language consisting of complex base level instructions.</Description>
             <Unlock>1970</Unlock>
-            <CodeArt>1</CodeArt>
-            <Dependencies></Dependencies>
-        </Feature>
-        <Feature From="Terminal" Vital="True">
-            <Name>Forms UI</Name>
-            <Description>The ability for the language to create Forms on the screen.</Description>
-            <DevTime>2</DevTime>
-            <Innovation>2</Innovation>
-            <Usability>2</Usability>
-            <Stability>1</Stability>
-            <Category>General</Category>
+            <Popularity>0.1</Popularity>
+            <TimeScale>2</TimeScale>
+            <Retention>0.4</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Languages</NameGenerator>
+        </Category>
+        <Category Name="Procedural">
+            <Description>Higher level language for easier formulation of conditional, recursive, and looping mechanics.</Description>
             <Unlock>1980</Unlock>
-            <CodeArt>0.8</CodeArt>
-            <Dependencies>
-                <Dependency Software="Operating System">GUI</Dependency>
-            </Dependencies>
-        </Feature>
-        <Feature From="Forms UI" Vital="True">
-            <Name>Modern UI</Name>
-            <Description>The ability for the language to create modern looking UI components.</Description>
-            <DevTime>3</DevTime>
-            <Innovation>3</Innovation>
-            <Usability>3</Usability>
-            <Stability>1</Stability>
-            <Category>Graphics</Category>
+            <Popularity>0.2</Popularity>
+            <TimeScale>1.6</TimeScale>
+            <Retention>0.5</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Languages</NameGenerator>
+        </Category>
+        <Category Name="OOP">
+            <Description>Object-Orientated Programming; crucial in creation of complex solutions.</Description>
             <Unlock>1990</Unlock>
-            <CodeArt>0.7</CodeArt>
+            <Popularity>0.4</Popularity>
+            <TimeScale>1.2</TimeScale>
+            <Retention>0.6</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Languages</NameGenerator>
+        </Category>
+        <Category Name="Concurrent">
+            <Description>In the era of multithreading, concurrency becomes a first class citizen of languages.</Description>
+            <Unlock>2000</Unlock>
+            <Popularity>0.6</Popularity>
+            <TimeScale>1</TimeScale>
+            <Retention>0.7</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Languages</NameGenerator>
+        </Category>
+        <Category Name="Functional">
+            <Description>Further refinement of multithreading leads to immutable language constructs.</Description>
+            <Unlock>2010</Unlock>
+            <Popularity>0.8</Popularity>
+            <TimeScale>0.8</TimeScale>
+            <Retention>0.8</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Languages</NameGenerator>
+        </Category>
+    </Categories>
+    <Features>
+        <Feature Forced="True">
+            <Name>Terminal</Name>
+            <Category>General</Category>
+            <Description>Allows dependant software to be created that utilises the terminal window.</Description>
+            <DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1970</Unlock>
+			<CodeArt>0.9</CodeArt>
             <Dependencies>
-                <Dependency Software="Operating System">3D rendering</Dependency>
-            </Dependencies>
-        </Feature>
-        <Feature From="Modern UI" Vital="True">
-            <Name>Responsive UI</Name>
-            <Description>Allows responsive UI designs that look great on all devices.</Description>
-            <DevTime>4</DevTime>
-            <Innovation>4</Innovation>
-            <Usability>4</Usability>
-            <Stability>1</Stability>
-            <Category>Graphics</Category>
-            <Unlock>2005</Unlock>
-            <CodeArt>0.5</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">Responsive UI</Dependency>
-                <Dependency Software="Operating System">Hardware Acceleration</Dependency>
+                <Dependency Software="Operating System">Terminal</Dependency>
             </Dependencies>
         </Feature>
         <Feature>
-            <Name>VR Integration</Name>
-            <Description>Allows software to interact with VR Devices.</Description>
-            <DevTime>2</DevTime>
-            <Innovation>3</Innovation>
-            <Usability>3</Usability>
-            <Stability>2</Stability>
+            <Name>Forms UI</Name>
             <Category>Graphics</Category>
-            <Unlock>2015</Unlock>
-            <CodeArt>0.5</CodeArt>
+            <Description>Allows dependant software to be created that utilises Forms UI.</Description>
+            <DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>0.8</CodeArt>
             <Dependencies>
-                <Dependency Software="Programming Language">Responsive UI</Dependency>
-                <Dependency Software="Operating System">Holo Rendering</Dependency>
+                <Dependency Software="Programming Language">Terminal</Dependency>
             </Dependencies>
         </Feature>
-        <Feature From="VR Integration" Vital="True">
-            <Name>Holo Integration</Name>
-            <Description>Allows software to interact with Holo Devices.</Description>
+        <Feature>
+            <Name>Modern UI</Name>
+            <Category>Graphics</Category>
+            <Description>Allows dependant software to be created that utilises a Modern UI.</Description>
             <DevTime>3</DevTime>
-            <Innovation>3</Innovation>
-            <Usability>3</Usability>
-            <Stability>2</Stability>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1990</Unlock>
+			<CodeArt>0.7</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">Forms UI</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Responsive UI</Name>
             <Category>Graphics</Category>
-            <Unlock>2020</Unlock>
-            <CodeArt>0.5</CodeArt>
-            <Dependencies>
-                <Dependency Software="Operating System">Holo Rendering</Dependency>
-            </Dependencies>
-        </Feature>
-        <Feature Vital="True">
-            <Name>User Interaction</Name>
-            <Description>The ability to interact with WebCams, Touchscreens, etc.</Description>
-            <DevTime>1</DevTime>
-            <Innovation>4</Innovation>
-            <Usability>2</Usability>
-            <Stability>1</Stability>
-            <Category>General</Category>
-            <Unlock>1995</Unlock>
-            <CodeArt>1</CodeArt>
-            <Dependencies>
-                <Dependency Software="Operating System">Plug'n'Play</Dependency>
-            </Dependencies>
-        </Feature>
-        <Feature Vital="True">
-            <Name>Local Networking</Name>
-            <Description>The ability to interfact with networked devices over LAN.</Description>
-            <DevTime>1</DevTime>
-            <Innovation>2</Innovation>
-            <Usability>1</Usability>
-            <Stability>1</Stability>
-            <Category>Networking</Category>
-            <Unlock>1985</Unlock>
-            <CodeArt>1</CodeArt>
-            <Dependencies>
-                <Dependency Software="Operating System">Networking</Dependency>
-            </Dependencies>
-        </Feature>
-        <Feature From="Local Networking" Vital="True">
-            <Name>Internet</Name>
-            <Description>The ability to interfact with networked devices over the world wide web.</Description>
-            <DevTime>2</DevTime>
-            <Innovation>2</Innovation>
-            <Usability>1</Usability>
-            <Stability>1</Stability>
-            <Category>Networking</Category>
+            <Description>Allows dependant software to be created that utilises a Responsive UI.</Description>
+            <DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
             <Unlock>2000</Unlock>
-            <CodeArt>1</CodeArt>
+			<CodeArt>0.7</CodeArt>
             <Dependencies>
-                <Dependency Software="Operating System">Networking</Dependency>
+                <Dependency Software="Programming Language">Modern UI</Dependency>
             </Dependencies>
         </Feature>
         <Feature>
             <Name>Multitasking</Name>
-            <Description>The ability to run multiple applications on the same system.</Description>
+            <Category>System</Category>
+            <Description>Allows dependant software to be created that utilises multiple processes.</Description>
             <DevTime>1</DevTime>
-            <Innovation>3</Innovation>
-            <Usability>2</Usability>
-            <Stability>1</Stability>
-            <Category>Asynchrony</Category>
-            <Unlock>1980</Unlock>
-            <CodeArt>1</CodeArt>
+			<Innovation>4</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>1973</Unlock>
+			<CodeArt>1</CodeArt>
             <Dependencies>
                 <Dependency Software="Operating System">Multitasking</Dependency>
             </Dependencies>
         </Feature>
-        <Feature From="Multitasking">
+        <Feature>
             <Name>Multithreading</Name>
-            <Description>The ability for applications to utilise multiple processor cores.</Description>
+            <Category>System</Category>
+            <Description>Allows dependant software to be created that utilises multiple threads.</Description>
             <DevTime>2</DevTime>
-            <Innovation>3</Innovation>
-            <Usability>2</Usability>
-            <Stability>1</Stability>
-            <Category>Asynchrony</Category>
-            <Unlock>2000</Unlock>
-            <CodeArt>1</CodeArt>
+			<Innovation>4</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>2005</Unlock>
+			<CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Operating System">Multithreading</Dependency>
+                <Dependency Software="Programming Language">Multitasking</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Local Networking</Name>
+            <Category>Network</Category>
+            <Description>Allows dependant software to be created that utilises LAN's.</Description>
+            <DevTime>1</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
+            <Unlock>1976</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies></Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Internet</Name>
+            <Category>Audio</Category>
+            <Description>Allows dependant software to be created that utilises the internet.</Description>
+            <DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+            <Unlock>2000</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Operating System">Networking</Dependency>
+                <Dependency Software="Programming Language">Local Networking</Dependency>
             </Dependencies>
         </Feature>
         <Feature>
             <Name>MIDI Music</Name>
-            <Description>The ability to play adorable 8-bit music.</Description>
-            <DevTime>1</DevTime>
-            <Innovation>1</Innovation>
-            <Usability>2</Usability>
-            <Stability>1</Stability>
             <Category>Audio</Category>
+            <Description>Allows dependant software to be created that utilises MIDI Sound Effects.</Description>
+            <DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
             <Unlock>1985</Unlock>
-            <CodeArt>1</CodeArt>
+			<CodeArt>0.9</CodeArt>
             <Dependencies>
                 <Dependency Software="Operating System">8-bit audio</Dependency>
             </Dependencies>
         </Feature>
-        <Feature From="MIDI Music" Vital="True">
+        <Feature>
             <Name>HD Audio</Name>
-            <Description>The ability to play a full range of sounds from music to gunshots.</Description>
-            <DevTime>2</DevTime>
-            <Innovation>4</Innovation>
-            <Usability>2</Usability>
-            <Stability>1</Stability>
             <Category>Audio</Category>
+            <Description>Allows dependant software to be created that utilises HD Audio.</Description>
+            <DevTime>1</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
             <Unlock>1995</Unlock>
-            <CodeArt>1</CodeArt>
+			<CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Operating System">HD audio</Dependency>
+                <Dependency Software="Programming Language">MIDI Music</Dependency>
             </Dependencies>
         </Feature>
-        <Feature From="HD Audio">
+        <Feature>
             <Name>Surround Sound</Name>
-            <Description>The ability to control the direction of sounds.</Description>
-            <DevTime>3</DevTime>
-            <Innovation>2</Innovation>
-            <Usability>2</Usability>
-            <Stability>1</Stability>
             <Category>Audio</Category>
+            <Description>Allows dependant software to be created that utilises Surround Sound.</Description>
+            <DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
             <Unlock>2005</Unlock>
-            <CodeArt>1</CodeArt>
+			<CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Operating System">Surround Sound</Dependency>
+                <Dependency Software="Programming Language">HD Audio</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>User Interaction</Name>
+            <Category>General</Category>
+            <Description>Allows dependant software to be created that utilises interactive devices such as webcams.</Description>
+            <DevTime>1</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>2000</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Operating System">Plug'n'Play</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>VR Integration</Name>
+            <Category>General</Category>
+            <Description>Allows dependant software to be created that utilises Virtual Reality Devices.</Description>
+            <DevTime>5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>2015</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">User Interaction</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Holo Integration</Name>
+            <Category>General</Category>
+            <Description>Allows dependant software to be created that utilises Virtual Reality Devices.</Description>
+            <DevTime>6</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>2020</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">VR Integration</Dependency>
             </Dependencies>
         </Feature>
         <Feature>
             <Name>Virtualisation</Name>
-            <Description>The ability to utilise virtual resource sets.</Description>
-            <DevTime>2</DevTime>
-            <Innovation>1</Innovation>
-            <Usability>1</Usability>
-            <Stability>2</Stability>
+            <Category>System</Category>
+            <Description>Allows dependant software to be created that utilises virtualisation.</Description>
+            <DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
             <Unlock>2010</Unlock>
-            <CodeArt>1</CodeArt>
+			<CodeArt>1</CodeArt>
             <Dependencies>
-                <Dependency Software="Operating System">Virtualisation</Dependency>
+                <Dependency Software="Operating System">Hyperthreading</Dependency>
             </Dependencies>
         </Feature>
     </Features>
