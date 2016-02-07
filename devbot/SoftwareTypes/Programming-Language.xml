@@ -12,7 +12,7 @@
         <Category Name="Assembly">
             <Description>Rudimentary language consisting of complex base level instructions.</Description>
             <Unlock>1970</Unlock>
-            <Popularity>0.1</Popularity>
+            <Popularity>0.025</Popularity>
             <TimeScale>2</TimeScale>
             <Retention>0.4</Retention>
             <Iterative>1</Iterative>
@@ -21,7 +21,7 @@
         <Category Name="Procedural">
             <Description>Higher level language for easier formulation of conditional, recursive, and looping mechanics.</Description>
             <Unlock>1980</Unlock>
-            <Popularity>0.2</Popularity>
+            <Popularity>0.05</Popularity>
             <TimeScale>1.6</TimeScale>
             <Retention>0.5</Retention>
             <Iterative>1</Iterative>
@@ -30,7 +30,7 @@
         <Category Name="OOP">
             <Description>Object-Orientated Programming; crucial in creation of complex solutions.</Description>
             <Unlock>1990</Unlock>
-            <Popularity>0.4</Popularity>
+            <Popularity>0.1</Popularity>
             <TimeScale>1.2</TimeScale>
             <Retention>0.6</Retention>
             <Iterative>1</Iterative>
@@ -39,7 +39,7 @@
         <Category Name="Concurrent">
             <Description>In the era of multithreading, concurrency becomes a first class citizen of languages.</Description>
             <Unlock>2000</Unlock>
-            <Popularity>0.6</Popularity>
+            <Popularity>0.2</Popularity>
             <TimeScale>1</TimeScale>
             <Retention>0.7</Retention>
             <Iterative>1</Iterative>
@@ -48,7 +48,7 @@
         <Category Name="Functional">
             <Description>Further refinement of multithreading leads to immutable language constructs.</Description>
             <Unlock>2010</Unlock>
-            <Popularity>0.8</Popularity>
+            <Popularity>0.4</Popularity>
             <TimeScale>0.8</TimeScale>
             <Retention>0.8</Retention>
             <Iterative>1</Iterative>
