@@ -1,7 +1,7 @@
 <SoftwareType>
 	<Name>Office</Name>
 	<Category>Office Software</Category>
-	<Description></Description>
+	<Description>Office suites for all basic office needs.</Description>
 	<Random>0.2</Random>
 	<OSSpecific>True</OSSpecific>
 	<OneClient>False</OneClient>
