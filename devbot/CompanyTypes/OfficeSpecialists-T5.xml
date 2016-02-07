@@ -1,0 +1,9 @@
+<CompanyType>
+    <Specialization>Comprehensive Office Software</Specialization>
+    <PerYear>0.2</PerYear>
+    <Min>1</Min>
+    <Max>2</Max>
+    <Types>
+        <Type Software="Office" Category="Comprehensive">1</Type>
+    </Types>
+</CompanyType>

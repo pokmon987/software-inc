@@ -1,0 +1,10 @@
+<CompanyType>
+    <Specialization>Basic Office Software</Specialization>
+    <Force>Office,Basic</Force>
+    <PerYear>0.2</PerYear>
+    <Min>1</Min>
+    <Max>2</Max>
+    <Types>
+        <Type Software="Office" Category="Basic">1</Type>
+    </Types>
+</CompanyType>

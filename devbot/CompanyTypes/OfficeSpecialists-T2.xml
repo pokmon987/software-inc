@@ -1,0 +1,9 @@
+<CompanyType>
+    <Specialization>Improved Office Software</Specialization>
+    <PerYear>0.2</PerYear>
+    <Min>1</Min>
+    <Max>2</Max>
+    <Types>
+        <Type Software="Office" Category="Improved">1</Type>
+    </Types>
+</CompanyType>
