@@ -1,0 +1,10 @@
+<CompanyType>
+    <Specialization>T1 Enterprise Systems</Specialization>
+    <Force>Enterprise System (T1),Default</Force>
+    <PerYear>0.2</PerYear>
+    <Min>1</Min>
+    <Max>2</Max>
+    <Types>
+        <Type Software="Enterprise System (T1)" Category="Default">1</Type>
+    </Types>
+</CompanyType>
