@@ -1,0 +1,151 @@
+<SoftwareType>
+	<Name>Office</Name>
+	<Category>Office Software</Category>
+	<Description></Description>
+	<Random>0.2</Random>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<NameGenerator>ServerSoftware</NameGenerator>
+    <Needs>
+        <Name>Programming Language</Name>
+    </Needs>
+    <Categories>
+        <Category Name="Basic">
+            <Description></Description>
+            <Unlock>1970</Unlock>
+            <TimeScale>2</TimeScale>
+            <Popularity>0.05</Popularity>
+            <Retention>0.4</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Office</NameGenerator>
+        </Category>
+        <Category Name="Improved">
+            <Description></Description>
+            <Unlock>1980</Unlock>
+            <TimeScale>2</TimeScale>
+            <Popularity>0.1</Popularity>
+            <Retention>0.5</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Office</NameGenerator>
+        </Category>
+        <Category Name="Complete">
+            <Description></Description>
+            <Unlock>1990</Unlock>
+            <TimeScale>2</TimeScale>
+            <Popularity>0.2</Popularity>
+            <Retention>0.6</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Office</NameGenerator>
+        </Category>
+        <Category Name="Advanced">
+            <Description></Description>
+            <Unlock>2000</Unlock>
+            <TimeScale>2</TimeScale>
+            <Popularity>0.4</Popularity>
+            <Retention>0.7</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Office</NameGenerator>
+        </Category>
+        <Category Name="Comprehensive">
+            <Description></Description>
+            <Unlock>2010</Unlock>
+            <TimeScale>2</TimeScale>
+            <Popularity>0.5</Popularity>
+            <Retention>0.8</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Office</NameGenerator>
+        </Category>
+    </Categories>
+    <Features>
+        <Feature Forced="True">
+            <Name>Text Editor</Name>
+            <Category>General</Category>
+            <Description></Description>
+            <DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+            <Unlock>1970</Unlock>
+			<CodeArt>0.8</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">Terminal</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Spreadsheet</Name>
+            <Category>General</Category>
+            <Description></Description>
+            <DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+            <Unlock>1975</Unlock>
+			<CodeArt>0.8</CodeArt>
+            <Dependencies>
+                <Dependency Software="Office">Text Editor</Dependency>
+                <Dependency Software="Programming Language">Multitasking</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Presentation</Name>
+            <Category>General</Category>
+            <Description></Description>
+            <DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>0.5</CodeArt>
+            <Dependencies>
+                <Dependency Software="Office">Text Editor</Dependency>
+                <Dependency Software="Programming Language">Forms UI</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Database</Name>
+            <Category>General</Category>
+            <Description></Description>
+            <DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+            <Unlock>1990</Unlock>
+			<CodeArt>0.8</CodeArt>
+            <Dependencies>
+                <Dependency Software="Office">Spreadsheet</Dependency>
+                <Dependency Software="Programming Language">Modern UI</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Email</Name>
+            <Category>General</Category>
+            <Description></Description>
+            <DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+            <Unlock>2000</Unlock>
+			<CodeArt>0.8</CodeArt>
+            <Dependencies>
+                <Dependency Software="Office">Database</Dependency>
+                <Dependency Software="Programming Language">Internet</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Notetaking</Name>
+            <Category>General</Category>
+            <Description></Description>
+            <DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+            <Unlock>2010</Unlock>
+			<CodeArt>0.5</CodeArt>
+            <Dependencies>
+                <Dependency Software="Office">Email</Dependency>
+                <Dependency Software="Programming Language">User Interaction</Dependency>
+            </Dependencies>
+        </Feature>
+    </Features>
+</SoftwareType>    
