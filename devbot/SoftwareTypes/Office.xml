@@ -14,7 +14,7 @@
         <Category Name="Basic">
             <Description></Description>
             <Unlock>1970</Unlock>
-            <TimeScale>2</TimeScale>
+            <TimeScale>0.8</TimeScale>
             <Popularity>0.05</Popularity>
             <Retention>0.4</Retention>
             <Iterative>1</Iterative>
@@ -23,7 +23,7 @@
         <Category Name="Improved">
             <Description></Description>
             <Unlock>1980</Unlock>
-            <TimeScale>2</TimeScale>
+            <TimeScale>1</TimeScale>
             <Popularity>0.1</Popularity>
             <Retention>0.5</Retention>
             <Iterative>1</Iterative>
@@ -32,7 +32,7 @@
         <Category Name="Complete">
             <Description></Description>
             <Unlock>1990</Unlock>
-            <TimeScale>2</TimeScale>
+            <TimeScale>1.2</TimeScale>
             <Popularity>0.2</Popularity>
             <Retention>0.6</Retention>
             <Iterative>1</Iterative>
@@ -41,7 +41,7 @@
         <Category Name="Advanced">
             <Description></Description>
             <Unlock>2000</Unlock>
-            <TimeScale>2</TimeScale>
+            <TimeScale>1.6</TimeScale>
             <Popularity>0.4</Popularity>
             <Retention>0.7</Retention>
             <Iterative>1</Iterative>
