@@ -6,7 +6,7 @@
             <Name>PC Drivers</Name>
             <Category>System</Category>
             <Description>Essential drivers required to operate the hardware.</Description>
-			<DevTime>1</DevTime>
+			<DevTime>15</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -19,7 +19,7 @@
             <Name>Console Drivers</Name>
             <Category>System</Category>
             <Description>Essential drivers required to operate the hardware.</Description>
-			<DevTime>1</DevTime>
+			<DevTime>15</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -32,7 +32,7 @@
             <Name>Phone Drivers</Name>
             <Category>System</Category>
             <Description>Essential drivers required to operate the hardware.</Description>
-			<DevTime>1</DevTime>
+			<DevTime>15</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>

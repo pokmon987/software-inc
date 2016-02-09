@@ -40,4 +40,4 @@
             </Dependencies>
         </Feature>
     </Features>
-</SoftwareType>    
+</SoftwareType>

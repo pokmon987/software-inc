@@ -1,0 +1,12 @@
+-start(bespoke)
+-bespoke(end, suffix)
+Open 
+M$ 
+Smart
+Soft
+-suffix(end)
+Office
+Suite
+Works
+Docs
+-end(stop)

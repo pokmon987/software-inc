@@ -1,6 +1,7 @@
 <SoftwareType Override="True">
-	<Name>Game</Name>
+	<Name>Webbased Game</Name>
     <Unlock>2050</Unlock>
+    <Delete>True</Delete>
     <Needs></Needs>
     <Features>
         <Feature>

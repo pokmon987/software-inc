@@ -1,6 +1,7 @@
 <SoftwareType Override="True">
-	<Name>Audio Tool</Name>
+	<Name>Game</Name>
     <Unlock>2050</Unlock>
+    <Delete>True</Delete>
     <Needs></Needs>
     <Features>
         <Feature>
