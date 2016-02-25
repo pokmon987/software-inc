@@ -10,7 +10,7 @@ For instructions on how to install the mod, please see [this guide](http://softw
 
 # Compatibility
 
-The mod is currently targetted for Alpha 7-7, which at time of writing is the latest stable branch on Steam. If you have opted in to beta builds and subsequently running Alpha 8+, this mod will not work for you (yet!).
+The mod is currently targetted for Alpha 7-7, which at time of writing is the latest stable branch on Steam. If you have opted in to beta builds and subsequently running Alpha 8+, this mod will not work for you (yet!). You can see a list of [available releases](https://github.com/software-inc-modding/devbot/releases) on GitHub to download the mod easily.
 
 # Contributing
 
