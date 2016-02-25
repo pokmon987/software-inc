@@ -6,7 +6,7 @@ This repository houses the Devbot mod, which is a mod for the awesome game, [Sof
 
 # Installation
 
-For instructions on how to install the mod, please see [this guide](http://softwareinc.coredumping.com/forum/index.php?topic=258.0). Many people accidentally miss step 5, so make sure you do the same!
+For instructions on how to install the mod, please see [this guide](http://softwareinc.coredumping.com/forum/index.php?topic=258.0). Many people accidentally miss step 5, so make sure you follow the instructions!
 
 # Compatibility
 
