@@ -1,6 +1,6 @@
 # Devbot Mod
 
-_More information about the mod itself can be found on the [Software Inc Forum](http://softwareinc.coredumping.com/forum/index.php?topic=519.0)_
+> More information about the mod itself can be found on the [Software Inc Forum](http://softwareinc.coredumping.com/forum/index.php?topic=519.0)
 
 This repository houses the Devbot mod, which is a mod for the awesome game, [Software Inc](softwareinc.coredumping.com).
 
