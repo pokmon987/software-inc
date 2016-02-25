@@ -1,9 +1,0 @@
-<CompanyType>
-    <Specialization>Mainframe Software</Specialization>
-    <PerYear>0.2</PerYear>
-    <Min>1</Min>
-    <Max>3</Max>
-    <Types>
-        <Type Software="Mainframe Software">1</Type>
-    </Types>
-</CompanyType>

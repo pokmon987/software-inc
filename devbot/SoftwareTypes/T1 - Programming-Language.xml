@@ -1,0 +1,269 @@
+<SoftwareType>
+    <Name>Programming Language</Name>
+    <Category>Programming Language</Category>
+    <Description>Allows development of software.</Description>
+    <Random>0.1</Random>
+    <OSSpecific>True</OSSpecific>
+    <OneClient>False</OneClient>
+    <InHouse>True</InHouse>
+    <NameGenerator>Languages</NameGenerator>
+    <Needs></Needs>
+    <Categories>
+        <Category Name="Assembly">
+            <Description>Rudimentary language consisting of complex base level instructions.</Description>
+            <Unlock>1970</Unlock>
+            <TimeScale>0.8</TimeScale>
+            <Popularity>0.001</Popularity>
+            <Retention>0.4</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Languages</NameGenerator>
+        </Category>
+        <Category Name="Procedural">
+            <Description>Higher level language for easier formulation of conditional, recursive, and looping mechanics.</Description>
+            <Unlock>1980</Unlock>
+            <TimeScale>1</TimeScale>
+            <Popularity>0.1</Popularity>
+            <Retention>0.5</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Languages</NameGenerator>
+        </Category>
+        <Category Name="OOP">
+            <Description>Object-Orientated Programming; crucial in creation of complex solutions.</Description>
+            <Unlock>1990</Unlock>
+            <TimeScale>1.2</TimeScale>
+            <Popularity>0.2</Popularity>
+            <Retention>0.6</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Languages</NameGenerator>
+        </Category>
+        <Category Name="Concurrent">
+            <Description>In the era of multithreading, concurrency becomes a first class citizen of languages.</Description>
+            <Unlock>2000</Unlock>
+            <TimeScale>1.6</TimeScale>
+            <Popularity>0.3</Popularity>
+            <Retention>0.7</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Languages</NameGenerator>
+        </Category>
+        <Category Name="Functional">
+            <Description>Further refinement of multithreading leads to immutable language constructs.</Description>
+            <Unlock>2010</Unlock>
+            <TimeScale>2</TimeScale>
+            <Popularity>2</Popularity>
+            <Retention>0.4</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>Languages</NameGenerator>
+        </Category>
+    </Categories>
+    <Features>
+        <Feature Forced="True">
+            <Name>Terminal</Name>
+            <Category>General</Category>
+            <Description>Allows dependant software to be created that utilises the terminal window.</Description>
+            <DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1970</Unlock>
+			<CodeArt>0.9</CodeArt>
+            <Dependencies>
+                <Dependency Software="Operating System">Terminal</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Forms UI</Name>
+            <Category>Graphics</Category>
+            <Description>Allows dependant software to be created that utilises Forms UI.</Description>
+            <DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>0.8</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">Terminal</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Modern UI</Name>
+            <Category>Graphics</Category>
+            <Description>Allows dependant software to be created that utilises a Modern UI.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1990</Unlock>
+			<CodeArt>0.7</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">Forms UI</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Responsive UI</Name>
+            <Category>Graphics</Category>
+            <Description>Allows dependant software to be created that utilises a Responsive UI.</Description>
+            <DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+            <Unlock>2000</Unlock>
+			<CodeArt>0.7</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">Modern UI</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Multitasking</Name>
+            <Category>System</Category>
+            <Description>Allows dependant software to be created that utilises multiple processes.</Description>
+            <DevTime>1</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>1973</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Operating System">Multitasking</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Multithreading</Name>
+            <Category>System</Category>
+            <Description>Allows dependant software to be created that utilises multiple threads.</Description>
+            <DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+            <Unlock>2005</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">Multitasking</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Local Networking</Name>
+            <Category>Network</Category>
+            <Description>Allows dependant software to be created that utilises LAN's.</Description>
+            <DevTime>1</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
+            <Unlock>1976</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies></Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Internet</Name>
+            <Category>Audio</Category>
+            <Description>Allows dependant software to be created that utilises the internet.</Description>
+            <DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+            <Unlock>2000</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Operating System">Networking</Dependency>
+                <Dependency Software="Programming Language">Local Networking</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>MIDI Music</Name>
+            <Category>Audio</Category>
+            <Description>Allows dependant software to be created that utilises MIDI Sound Effects.</Description>
+            <DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+            <Unlock>1985</Unlock>
+			<CodeArt>0.9</CodeArt>
+            <Dependencies>
+                <Dependency Software="Operating System">8-bit audio</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>HD Audio</Name>
+            <Category>Audio</Category>
+            <Description>Allows dependant software to be created that utilises HD Audio.</Description>
+            <DevTime>1</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1995</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">MIDI Music</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Surround Sound</Name>
+            <Category>Audio</Category>
+            <Description>Allows dependant software to be created that utilises Surround Sound.</Description>
+            <DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>2005</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">HD Audio</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>User Interaction</Name>
+            <Category>General</Category>
+            <Description>Allows dependant software to be created that utilises interactive devices such as webcams.</Description>
+            <DevTime>1</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>2000</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Operating System">Plug'n'Play</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>VR Integration</Name>
+            <Category>General</Category>
+            <Description>Allows dependant software to be created that utilises Virtual Reality Devices.</Description>
+            <DevTime>5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>2015</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">User Interaction</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Holo Integration</Name>
+            <Category>General</Category>
+            <Description>Allows dependant software to be created that utilises Virtual Reality Devices.</Description>
+            <DevTime>6</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>2020</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Programming Language">VR Integration</Dependency>
+            </Dependencies>
+        </Feature>
+        <Feature>
+            <Name>Virtualisation</Name>
+            <Category>System</Category>
+            <Description>Allows dependant software to be created that utilises virtualisation.</Description>
+            <DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+            <Unlock>2010</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+                <Dependency Software="Operating System">Hyperthreading</Dependency>
+            </Dependencies>
+        </Feature>
+    </Features>
+</SoftwareType>

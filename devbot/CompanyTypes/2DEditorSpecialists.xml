@@ -1,0 +1,10 @@
+<CompanyType>
+    <Specialization>2D Editors</Specialization>
+    <Force>2D Editor,Default</Force>
+    <PerYear>0.2</PerYear>
+    <Min>1</Min>
+    <Max>2</Max>
+    <Types>
+        <Type Software="2D Editor">1</Type>
+    </Types>
+</CompanyType>

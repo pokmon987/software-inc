@@ -1,0 +1,15 @@
+-start(prefix, affix)
+-prefix(end, affix, suffix)
+Art 
+Photo 
+Pixel 
+Pic 
+-affix(end, suffix)
+Designer
+Editor
+Paint
+-suffix(end)
+Pro
+Studio
+Tools
+-end(stop)

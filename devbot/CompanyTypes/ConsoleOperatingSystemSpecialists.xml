@@ -1,9 +1,8 @@
 <CompanyType>
-    <Specialization>Operating System</Specialization>
-    <Force>Operating System,Console</Force>
+    <Specialization>Console Operating Systems</Specialization>
     <PerYear>0.2</PerYear>
-    <Min>2</Min>
-    <Max>6</Max>
+    <Min>3</Min>
+    <Max>5</Max>
     <Types>
         <Type Software="Operating System" Category="Console">1</Type>
     </Types>
