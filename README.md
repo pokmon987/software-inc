@@ -34,7 +34,7 @@ A couple extra tips and bits of info:
 * Regular/good contributors will be added to the team!
 * **All** contributors will be added to the authors list; please let me know what name you would like to appear on the forum post.
 * The above flow sounds really complicated the first time you try it, the second time you'll do it in less than half the time. I find it takes me less than 2-3 minutes to completely run through the above process nowadays. ;)
-* 
+
 # Questions
 
 If you want to get hold of me, tweet me on [@Smudge202](https://twitter.com/smudge202) or reply to the Devbot forum post.
