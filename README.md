@@ -21,7 +21,7 @@ I understand that not all modders will be familiar with git[hub], so please foll
 1. Find an issue you want to work on (or raise an issue, ideally waiting for a go ahead before working on it!)
 1. **Fork** the repository (Fork button on the repository home page - this will create your own copy of the repository on GitHub)
 1. **Clone** your fork to your local machine (there's dozens of ways of cloning to your own machine, do it through git, not a zip download!)
-1. Make sure you **Checkout** the correct branch. This will usually be the 'dev/<name of current release>' branch!
+1. Make sure you **Checkout** the correct branch. This will usually be the `dev/<name of current release>` branch!
 1. Make changes on your local machine until the issue has been resolved (be it a new feature, a bug fix, etc).
 1. **Commit** your changes, making sure you provide a useful commit message!
 1. **Push** the changes back up to your Fork on GitHub
