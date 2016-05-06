@@ -1,0 +1,30 @@
+<SoftwareType Override="True">
+	<Name>Video Game</Name>
+	<Category>Gaming</Category>
+	<Description>Interactive Art</Description>
+	<Random>0.5</Random>
+	<Unlock>1970</Unlock>
+	<Popularity>0.004</Popularity>
+	<Iterative>0.5</Iterative>
+	<Retention>0.5</Retention>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<NameGenerator>VideoGames</NameGenerator>
+    <Features>
+        <Feature Forced="True">
+            <Name>Main Menu</Name>
+            <Category>General</Category>
+            <Description>Makes a simple menu screen on startup.</Description>
+            <Unlock>1970</Unlock>
+            <DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>.8</CodeArt>
+			<Dependency Software="2D Editor">Image Editing</Dependency>
+			<Dependency Software="Programming Language">Terminal</Dependency>
+			<Dependency Software="Office">Text Editor</Dependency>
+        </Feature>
+    </Features>
+</SoftwareType>

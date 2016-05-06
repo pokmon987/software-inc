@@ -7,12 +7,9 @@
 	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
 	<NameGenerator>ServerSoftware</NameGenerator>
-    <Needs>
-        <Name>Programming Language</Name>
-    </Needs>
     <Categories>
         <Category Name="Basic">
-            <Description></Description>
+            <Description>Basic office needs.</Description>
             <Unlock>1970</Unlock>
             <TimeScale>0.8</TimeScale>
             <Popularity>0.002</Popularity>
@@ -21,7 +18,7 @@
             <NameGenerator>Office</NameGenerator>
         </Category>
         <Category Name="Improved">
-            <Description></Description>
+            <Description>After months of desktop knicknack research, the office has finally improved.</Description>
             <Unlock>1980</Unlock>
             <TimeScale>1</TimeScale>
             <Popularity>0.153</Popularity>
@@ -30,7 +27,7 @@
             <NameGenerator>Office</NameGenerator>
         </Category>
         <Category Name="Complete">
-            <Description></Description>
+            <Description>Office Needs: Complete Edition!</Description>
             <Unlock>1990</Unlock>
             <TimeScale>1.2</TimeScale>
             <Popularity>0.251</Popularity>
@@ -68,9 +65,7 @@
 			<Stability>1</Stability>
             <Unlock>1970</Unlock>
 			<CodeArt>0.8</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">Terminal</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">Terminal</Dependency>
         </Feature>
         <Feature>
             <Name>Spreadsheet</Name>
@@ -82,10 +77,8 @@
 			<Stability>1</Stability>
             <Unlock>1975</Unlock>
 			<CodeArt>0.8</CodeArt>
-            <Dependencies>
-                <Dependency Software="Office">Text Editor</Dependency>
-                <Dependency Software="Programming Language">Multitasking</Dependency>
-            </Dependencies>
+            <Dependency Software="Office">Text Editor</Dependency>
+            <Dependency Software="Programming Language">Multitasking</Dependency>
         </Feature>
         <Feature>
             <Name>Presentation</Name>
@@ -97,10 +90,8 @@
 			<Stability>1</Stability>
             <Unlock>1980</Unlock>
 			<CodeArt>0.5</CodeArt>
-            <Dependencies>
-                <Dependency Software="Office">Text Editor</Dependency>
-                <Dependency Software="Programming Language">Forms UI</Dependency>
-            </Dependencies>
+            <Dependency Software="Office">Text Editor</Dependency>
+            <Dependency Software="Programming Language">Forms UI</Dependency>
         </Feature>
         <Feature>
             <Name>Database</Name>
@@ -112,10 +103,8 @@
 			<Stability>1</Stability>
             <Unlock>1990</Unlock>
 			<CodeArt>0.8</CodeArt>
-            <Dependencies>
-                <Dependency Software="Office">Spreadsheet</Dependency>
-                <Dependency Software="Programming Language">Modern UI</Dependency>
-            </Dependencies>
+            <Dependency Software="Office">Spreadsheet</Dependency>
+            <Dependency Software="Programming Language">Modern UI</Dependency>
         </Feature>
         <Feature>
             <Name>Email</Name>
@@ -127,10 +116,8 @@
 			<Stability>1</Stability>
             <Unlock>2000</Unlock>
 			<CodeArt>0.8</CodeArt>
-            <Dependencies>
-                <Dependency Software="Office">Database</Dependency>
-                <Dependency Software="Programming Language">Internet</Dependency>
-            </Dependencies>
+            <Dependency Software="Office">Database</Dependency>
+            <Dependency Software="Programming Language">Internet</Dependency>
         </Feature>
         <Feature>
             <Name>Notetaking</Name>
@@ -142,10 +129,8 @@
 			<Stability>1</Stability>
             <Unlock>2010</Unlock>
 			<CodeArt>0.5</CodeArt>
-            <Dependencies>
-                <Dependency Software="Office">Email</Dependency>
-                <Dependency Software="Programming Language">User Interaction</Dependency>
-            </Dependencies>
+            <Dependency Software="Office">Email</Dependency>
+            <Dependency Software="Programming Language">User Interaction</Dependency>
         </Feature>
     </Features>
 </SoftwareType>    

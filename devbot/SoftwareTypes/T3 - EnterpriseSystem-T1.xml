@@ -10,11 +10,6 @@
 	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
 	<NameGenerator>ServerSoftware</NameGenerator>
-    <Needs>
-        <Name>Programming Language</Name>
-        <Name>Office</Name>
-        <Name>Specialist Networking</Name>
-    </Needs>
     <Features>
         <Feature Forced="True">
             <Name>Data Processing</Name>
@@ -26,11 +21,9 @@
 			<Stability>1</Stability>
             <Unlock>1970</Unlock>
 			<CodeArt>0.9</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">Terminal</Dependency>
-                <Dependency Software="Office">Text Editor</Dependency>
-                <Dependency Software="Specialist Networking">ARKANET</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">Terminal</Dependency>
+            <Dependency Software="Office">Text Editor</Dependency>
+            <Dependency Software="Specialist Networking">ARKANET</Dependency>
         </Feature>
         <Feature>
             <Name>CRM</Name>
@@ -42,10 +35,8 @@
 			<Stability>1</Stability>
             <Unlock>1973</Unlock>
 			<CodeArt>0.9</CodeArt>
-            <Dependencies>
-                <Dependency Software="Enterprise System (T1)">Data Processing</Dependency>
-                <Dependency Software="Programming Language">Multitasking</Dependency>
-            </Dependencies>
+            <Dependency Software="Enterprise System (T1)">Data Processing</Dependency>
+            <Dependency Software="Programming Language">Multitasking</Dependency>
         </Feature>
         <Feature>
             <Name>Fallback</Name>
@@ -57,9 +48,7 @@
 			<Stability>6</Stability>
             <Unlock>1976</Unlock>
 			<CodeArt>0.9</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">Local Networking</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">Local Networking</Dependency>
         </Feature>
     </Features>
 </SoftwareType>

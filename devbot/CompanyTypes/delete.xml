@@ -1,0 +1,13 @@
+<CompanyTypes>
+    <Type>Antivirus</Type>
+	<Type>Computer Operating Systems</Type>
+	<Type>Console Operating Systems</Type>
+	<Type>Phone Operating Systems</Type>
+	<Type>Creative tools</Type>
+	<Type>Financial CMS</Type>
+	<Type>Game engines</Type>
+	<Type>Games</Type>
+	<Type>Office</Type>
+	<Type>Web CMS</Type>
+	<Type>Workflow CMS</Type>
+</CompanyTypes>

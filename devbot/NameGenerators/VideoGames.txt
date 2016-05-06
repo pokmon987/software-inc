@@ -1,0 +1,15 @@
+-start(bespoke, stem, suffix)
+-bespoke(stem, suffix)
+The
+Super
+-stem(suffix, end)
+Destruct
+Build
+Soft
+Software
+Dev
+Bot
+-suffix(end)
+Bot
+Simulator
+-end(stop)

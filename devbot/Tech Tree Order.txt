@@ -1,0 +1,7 @@
+White = T0/T1
+Grey = T2
+Blue = T3
+Yellow = T4
+Green = T5
+Red = T6
+Purple = T7

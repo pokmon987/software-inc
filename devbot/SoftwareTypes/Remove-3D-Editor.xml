@@ -1,5 +1,5 @@
 <SoftwareType Override="True">
-	<Name>Game</Name>
+	<Name>3D Editor</Name>
     <Delete>True</Delete>
     <Unlock>2050</Unlock>
     <Needs></Needs>

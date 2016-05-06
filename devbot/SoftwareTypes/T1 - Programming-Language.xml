@@ -7,7 +7,6 @@
     <OneClient>False</OneClient>
     <InHouse>True</InHouse>
     <NameGenerator>Languages</NameGenerator>
-    <Needs></Needs>
     <Categories>
         <Category Name="Assembly">
             <Description>Rudimentary language consisting of complex base level instructions.</Description>
@@ -66,9 +65,7 @@
 			<Stability>1</Stability>
             <Unlock>1970</Unlock>
 			<CodeArt>0.9</CodeArt>
-            <Dependencies>
-                <Dependency Software="Operating System">Terminal</Dependency>
-            </Dependencies>
+            <Dependency Software="Operating System">Terminal</Dependency>
         </Feature>
         <Feature>
             <Name>Forms UI</Name>
@@ -80,9 +77,7 @@
 			<Stability>1</Stability>
             <Unlock>1980</Unlock>
 			<CodeArt>0.8</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">Terminal</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">Terminal</Dependency>
         </Feature>
         <Feature>
             <Name>Modern UI</Name>
@@ -94,9 +89,7 @@
 			<Stability>1</Stability>
             <Unlock>1990</Unlock>
 			<CodeArt>0.7</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">Forms UI</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">Forms UI</Dependency>
         </Feature>
         <Feature>
             <Name>Responsive UI</Name>
@@ -108,9 +101,7 @@
 			<Stability>1</Stability>
             <Unlock>2000</Unlock>
 			<CodeArt>0.7</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">Modern UI</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">Modern UI</Dependency>
         </Feature>
         <Feature>
             <Name>Multitasking</Name>
@@ -122,9 +113,7 @@
 			<Stability>2</Stability>
             <Unlock>1973</Unlock>
 			<CodeArt>1</CodeArt>
-            <Dependencies>
-                <Dependency Software="Operating System">Multitasking</Dependency>
-            </Dependencies>
+            <Dependency Software="Operating System">Multitasking</Dependency>
         </Feature>
         <Feature>
             <Name>Multithreading</Name>
@@ -136,9 +125,7 @@
 			<Stability>2</Stability>
             <Unlock>2005</Unlock>
 			<CodeArt>1</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">Multitasking</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">Multitasking</Dependency>
         </Feature>
         <Feature>
             <Name>Local Networking</Name>
@@ -150,7 +137,6 @@
 			<Stability>3</Stability>
             <Unlock>1976</Unlock>
 			<CodeArt>1</CodeArt>
-            <Dependencies></Dependencies>
         </Feature>
         <Feature>
             <Name>Internet</Name>
@@ -162,10 +148,8 @@
 			<Stability>4</Stability>
             <Unlock>2000</Unlock>
 			<CodeArt>1</CodeArt>
-            <Dependencies>
-                <Dependency Software="Operating System">Networking</Dependency>
-                <Dependency Software="Programming Language">Local Networking</Dependency>
-            </Dependencies>
+            <Dependency Software="Operating System">Networking</Dependency>
+            <Dependency Software="Programming Language">Local Networking</Dependency>
         </Feature>
         <Feature>
             <Name>MIDI Music</Name>
@@ -177,9 +161,7 @@
 			<Stability>1</Stability>
             <Unlock>1985</Unlock>
 			<CodeArt>0.9</CodeArt>
-            <Dependencies>
-                <Dependency Software="Operating System">8-bit audio</Dependency>
-            </Dependencies>
+            <Dependency Software="Operating System">8-bit audio</Dependency>
         </Feature>
         <Feature>
             <Name>HD Audio</Name>
@@ -191,9 +173,7 @@
 			<Stability>1</Stability>
             <Unlock>1995</Unlock>
 			<CodeArt>1</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">MIDI Music</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">MIDI Music</Dependency>
         </Feature>
         <Feature>
             <Name>Surround Sound</Name>
@@ -205,9 +185,7 @@
 			<Stability>1</Stability>
             <Unlock>2005</Unlock>
 			<CodeArt>1</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">HD Audio</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">HD Audio</Dependency>
         </Feature>
         <Feature>
             <Name>User Interaction</Name>
@@ -219,9 +197,7 @@
 			<Stability>1</Stability>
             <Unlock>2000</Unlock>
 			<CodeArt>1</CodeArt>
-            <Dependencies>
-                <Dependency Software="Operating System">Plug'n'Play</Dependency>
-            </Dependencies>
+            <Dependency Software="Operating System">Plug'n'Play</Dependency>
         </Feature>
         <Feature>
             <Name>VR Integration</Name>
@@ -233,23 +209,19 @@
 			<Stability>1</Stability>
             <Unlock>2015</Unlock>
 			<CodeArt>1</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">User Interaction</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">User Interaction</Dependency>
         </Feature>
         <Feature>
             <Name>Holo Integration</Name>
             <Category>General</Category>
-            <Description>Allows dependant software to be created that utilises Virtual Reality Devices.</Description>
+            <Description>Allows dependant software to be created that utilises Holgraphic Devices.</Description>
             <DevTime>6</DevTime>
 			<Innovation>5</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
             <Unlock>2020</Unlock>
 			<CodeArt>1</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">VR Integration</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">VR Integration</Dependency>
         </Feature>
         <Feature>
             <Name>Virtualisation</Name>
@@ -261,9 +233,7 @@
 			<Stability>4</Stability>
             <Unlock>2010</Unlock>
 			<CodeArt>1</CodeArt>
-            <Dependencies>
-                <Dependency Software="Operating System">Hyperthreading</Dependency>
-            </Dependencies>
+            <Dependency Software="Operating System">Hyperthreading</Dependency>
         </Feature>
     </Features>
 </SoftwareType>

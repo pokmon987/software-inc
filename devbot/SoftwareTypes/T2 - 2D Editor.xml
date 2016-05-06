@@ -1,4 +1,4 @@
-<SoftwareType>
+<SoftwareType Override="True">
 	<Name>2D Editor</Name>
 	<Category>Graphics Editing</Category>
 	<Description>Simple 2D Image Editing</Description>
@@ -10,9 +10,6 @@
 	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
 	<NameGenerator>Graphics</NameGenerator>
-    <Needs>
-        <Name>Programming Language</Name>
-    </Needs>
     <Features>
         <Feature Forced="True">
             <Name>Image Management</Name>
@@ -24,9 +21,7 @@
 			<Stability>1</Stability>
             <Unlock>1970</Unlock>
 			<CodeArt>0.9</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">Terminal</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">Terminal</Dependency>
         </Feature>
         <Feature Vital="True">
             <Name>Image Editing</Name>
@@ -38,9 +33,7 @@
 			<Stability>1</Stability>
             <Unlock>1973</Unlock>
 			<CodeArt>0.2</CodeArt>
-            <Dependencies>
-                <Dependency Software="Programming Language">Multitasking</Dependency>
-            </Dependencies>
+            <Dependency Software="Programming Language">Multitasking</Dependency>
         </Feature>
         <Feature>
             <Name>Animation</Name>
@@ -52,9 +45,7 @@
 			<Stability>1</Stability>
             <Unlock>1976</Unlock>
 			<CodeArt>0.5</CodeArt>
-            <Dependencies>
-                <Dependency Software="2D Editor">Image Editing</Dependency>
-            </Dependencies>
+            <Dependency Software="2D Editor">Image Editing</Dependency>
         </Feature>
     </Features>
 </SoftwareType>    

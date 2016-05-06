@@ -10,9 +10,6 @@
 	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
     <NameGenerator>Networks</NameGenerator>
-	<Needs>
-        <Name>Programming Language</Name>
-    </Needs>
     <Features>
         <Feature Forced="True">
             <Name>ARKANET</Name>
@@ -25,10 +22,8 @@
             <Unlock>1970</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.007</Server>
-            <Dependencies>
-                <Dependency Software="Operating System">PC Drivers</Dependency>
-                <Dependency Software="Programming Language">Terminal</Dependency>
-            </Dependencies>
+            <Dependency Software="Operating System">PC Drivers</Dependency>
+            <Dependency Software="Programming Language">Terminal</Dependency>
         </Feature>
         <Feature From="ARKANET">
             <Name>T1</Name>
@@ -41,10 +36,8 @@
             <Unlock>1973</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.01</Server>
-            <Dependencies>
-                <Dependency Software="Operating System">PC Drivers</Dependency>
-                <Dependency Software="Programming Language">Terminal</Dependency>
-            </Dependencies>
+            <Dependency Software="Operating System">PC Drivers</Dependency>
+            <Dependency Software="Programming Language">Terminal</Dependency>
         </Feature>
         <Feature From="T1">
             <Name>T1C</Name>
@@ -57,10 +50,8 @@
             <Unlock>1976</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.021</Server>
-            <Dependencies>
-                <Dependency Software="Operating System">PC Drivers</Dependency>
-                <Dependency Software="Programming Language">Terminal</Dependency>
-            </Dependencies>
+            <Dependency Software="Operating System">PC Drivers</Dependency>
+            <Dependency Software="Programming Language">Terminal</Dependency>
         </Feature>
         <Feature From="T1C">
             <Name>T2</Name>
@@ -73,10 +64,8 @@
             <Unlock>1979</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>0.042</Server>
-            <Dependencies>
-                <Dependency Software="Operating System">PC Drivers</Dependency>
-                <Dependency Software="Programming Language">Terminal</Dependency>
-            </Dependencies>
+            <Dependency Software="Operating System">PC Drivers</Dependency>
+            <Dependency Software="Programming Language">Terminal</Dependency>
         </Feature>
         <Feature From="T2">
             <Name>T4</Name>
@@ -89,10 +78,8 @@
             <Unlock>1991</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>1.827</Server>
-            <Dependencies>
-                <Dependency Software="Operating System">PC Drivers</Dependency>
-                <Dependency Software="Programming Language">Terminal</Dependency>
-            </Dependencies>
+            <Dependency Software="Operating System">PC Drivers</Dependency>
+            <Dependency Software="Programming Language">Terminal</Dependency>
         </Feature>
         <Feature From="T4">
             <Name>OC-48</Name>
@@ -105,10 +92,8 @@
             <Unlock>1999</Unlock>
 			<CodeArt>1</CodeArt>
             <Server>13.6</Server>
-            <Dependencies>
-                <Dependency Software="Operating System">PC Drivers</Dependency>
-                <Dependency Software="Programming Language">Terminal</Dependency>
-            </Dependencies>
+            <Dependency Software="Operating System">PC Drivers</Dependency>
+            <Dependency Software="Programming Language">Terminal</Dependency>
         </Feature>
     </Features>
 </SoftwareType>

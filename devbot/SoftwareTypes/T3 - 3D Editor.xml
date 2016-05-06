@@ -1,0 +1,77 @@
+<SoftwareType Override="True">
+	<Name>3D Editor</Name>
+	<Category>Graphics Editing</Category>
+	<Description>It almost looks real!</Description>
+	<Random>0.7</Random>
+	<Popularity>0.153</Popularity>
+	<Retention>0.6</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<NameGenerator>Graphics</NameGenerator>
+	<Features>
+		<Feature Forced="True" Vital="True">
+			<Name>3D File Management</Name>
+			<Category>System</Category>
+			<Description>Brand-new files to manage.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.7</CodeArt>
+			<Unlocks>1980</Unlocks>
+			<Dependency Software="Programming Language">Forms UI</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Rendering</Name>
+			<Category>Graphics</Category>
+			<Description>Renders 3D objects into a 2D image.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.6</CodeArt>
+			<Unlocks>1981</Unlocks>
+			<Dependency Software="2D Editor">Image Management</Dependency>
+		</Feature>
+		<Feature>
+			<Name>3D Manipulation</Name>
+			<Category>Graphics</Category>
+			<Description>Allows the user to manipulate 3D objects on screen.</Description>
+			<DevTime>7</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.7</CodeArt>
+			<Unlocks>1982</Unlocks>
+			<Dependency Software="2D Editor">Image Editing</Dependency>
+			<Dependency Software="3D Editor">3D File Management</Dependency>
+		</Feature>
+		<Feature From="Rendering">
+			<Name>Shading</Name>
+			<Category>Graphics</Category>
+			<Description>Makes the 3D model recognizable by adding shades to different faces.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>6</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.4</CodeArt>
+			<Unlocks>1984</Unlocks>
+			<Dependency Software="3D Editor">Rendering</Dependency>
+		</Feature>
+		<Feature From="Shading">
+			<Name>3D Animations</Name>
+			<Category>Graphics</Category>
+			<Description>It's "better" if you use it right.</Description>
+			<DevTime>9</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Unlocks>1987</Unlocks>
+			<Dependency Software="2D Editor">Animation</Dependency>
+			<Dependency Software="3D Editor">Shading</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>
